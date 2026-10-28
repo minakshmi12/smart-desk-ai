@@ -1,0 +1,302 @@
+[
+    {
+        "id":  "l1-0007",
+        "language":  "en",
+        "user_message":  "I typed the wrong password too many times yesterday and now every cloud app says my account is locked.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "low",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Your account looks locked. Wait 15 minutes, try signing in once with the correct password, and let us know the exact sign-in error if it still fails.",
+        "resolution_steps":  [
+                                 "Confirm the exact lockout or sign-in error message.",
+                                 "Wait 15 minutes and try one sign-in with the correct password.",
+                                 "Verify the account is not locked in the standard support directory tool.",
+                                 "Escalate for manual unlock if the account remains blocked."
+                             ],
+        "tags":  [
+                     "account-lockout",
+                     "sso",
+                     "login"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0014",
+        "language":  "en",
+        "user_message":  "My Android mail app keeps asking for updated credentials after my password expired overnight.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "low",
+        "platform":  "android",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Please reset your password through the approved reset page, then sign out and back in to affected apps after a short wait for sync.",
+        "resolution_steps":  [
+                                 "Confirm whether the password is expired or recently changed.",
+                                 "Reset the password in the approved self-service portal.",
+                                 "Sign out of affected apps and wait a few minutes for credential sync.",
+                                 "Sign back in and escalate if the new password is still rejected."
+                             ],
+        "tags":  [
+                     "password",
+                     "credential-sync",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0021",
+        "language":  "en",
+        "user_message":  "I can receive mail on my phone, but Outlook on my desktop refuses to send any new messages.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_send_failure",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Check Outlook connection status, confirm the mailbox is not full, and test sending a simple message without attachments.",
+        "resolution_steps":  [
+                                 "Verify Outlook shows connected status and the device has internet access.",
+                                 "Check whether the mailbox is full or the message has a large attachment.",
+                                 "Restart Outlook and send a short test email without attachments.",
+                                 "Escalate to the messaging team if mail stays stuck in Outbox."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0028",
+        "language":  "en",
+        "user_message":  "I can open the VPN client on iPhone, but after approval it immediately returns to the sign-in screen.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm your password and MFA approval, then retry the VPN connection after restarting the client.",
+        "resolution_steps":  [
+                                 "Confirm the exact VPN authentication error message.",
+                                 "Verify the username, password, and MFA approval are correct.",
+                                 "Restart the VPN client and retry the connection.",
+                                 "Escalate to the network team if authentication still fails."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "remote-access",
+                     "authentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0035",
+        "language":  "en",
+        "user_message":  "I reconnected to the network today and now the nearest printer appears offline in my queue.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "low",
+        "platform":  "windows_10",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Check that the correct printer is selected, clear any stuck jobs, and confirm the device shows online before printing again.",
+        "resolution_steps":  [
+                                 "Confirm the printer name and whether others can print to it.",
+                                 "Clear stuck jobs from the print queue.",
+                                 "Verify the printer is online and selected correctly.",
+                                 "Escalate to desktop support if the printer remains offline."
+                             ],
+        "tags":  [
+                     "printer",
+                     "print-queue",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0042",
+        "language":  "en",
+        "user_message":  "My laptop says connected to Wi-Fi but I cannot open anything until I disconnect and reconnect again.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0049",
+        "language":  "en",
+        "user_message":  "Several bookmarks return address not found on my desktop, but the sites work for my teammate.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0056",
+        "language":  "en",
+        "user_message":  "I need the approved desktop app for training today, but it refuses to start on my Windows 11 machine.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0063",
+        "language":  "en",
+        "user_message":  "The laptop recognizes the charger for a second and then switches back to battery mode.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0070",
+        "language":  "en",
+        "user_message":  "The authenticator app says it is ready, but I am not receiving any verification requests at sign-in.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "medium",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0109",
+        "language":  "en",
+        "user_message":  "My external monitor is connected to the laptop dock, but the screen is not detected at all.",
+        "category":  "hardware_issue",
+        "subcategory":  "external_monitor_not_detected",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the monitor cable, confirm the correct input source is selected, and run display detection again.",
+        "resolution_steps":  [
+                                 "Confirm the monitor is powered on and connected correctly.",
+                                 "Reseat the video cable and verify the monitor input source.",
+                                 "Use display settings to detect the monitor again.",
+                                 "Escalate if the external display is still not detected."
+                             ],
+        "tags":  [
+                     "monitor",
+                     "dock",
+                     "display"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0119",
+        "language":  "en",
+        "user_message":  "A browser pop-up says the site data is corrupted, and our internal dashboard will not finish loading.",
+        "category":  "browser_issue",
+        "subcategory":  "corrupted_site_cache",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Clear the affected site data, reopen the browser, and test the page again to remove corrupted local cache.",
+        "resolution_steps":  [
+                                 "Confirm the issue affects one dashboard or site only.",
+                                 "Test the site in a private window.",
+                                 "Clear cached data for the affected site and restart the browser.",
+                                 "Escalate if the page still fails after cache cleanup."
+                             ],
+        "tags":  [
+                     "browser",
+                     "cache",
+                     "dashboard"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    }
+]

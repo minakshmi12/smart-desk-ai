@@ -1,0 +1,296 @@
+[
+    {
+        "text": "<human>: What is the company's stance on discrimination?\n<bot>: The company strictly prohibits discrimination against any applicant, employee, or former employee based on race, color, religion, caste, gender, national origin, age, sexual orientation, marital status, disability, or any other attributes. All employment decisions are made based on legitimate, non-discriminatory business reasons."
+    },
+    {
+        "text": "<human>: How does the company ensure fairness in employment-related decisions?\n<bot>: All employment-related decisions at our company are based solely on legitimate, non-discriminatory business reasons, ensuring fairness and equality in hiring, promotions, and other employment practices."
+    },
+    {
+        "text": "<human>: Are former employees considered differently in the hiring process?\n<bot>: No, former employees are subject to the same non-discriminatory policies as new applicants. Their evaluation for re-employment is based purely on their qualifications and the business needs at the time."
+    },
+    {
+        "text": "<human>: What measures are in place to support diversity in the workplace?\n<bot>: The company actively promotes a diverse workplace by ensuring that our hiring and employment practices do not favor or disadvantage any group or individual unjustifiably, adhering strictly to the principles of equality as laid out in our Equal Employment Policy."
+    },
+    {
+        "text": "<human>: Can individuals with disabilities apply for all roles in the company?\n<bot>: Yes, individuals with disabilities are encouraged to apply for any role. They are evaluated based on their ability to meet the essential criteria of the job, with reasonable adjustments made to facilitate their full participation in the recruitment process."
+    },
+    {
+        "text": "<human>: What information is provided to candidates when they apply for a position?\n<bot>: Candidates receive a job description, details of the relevant conditions of service, information about the company, a brief statement about the appointment procedure, and the expected timeline for interviews."
+    },
+    {
+        "text": "<human>: How does the company ensure that the recruitment process is fair?\n<bot>: The recruitment process is designed to be transparent and equitable, with job descriptions carefully written to avoid discrimination, and a selection process that is based solely on merit and suitability for the post, while also adhering to legal responsibilities concerning non-discrimination."
+    },
+    {
+        "text": "<human>: What provisions are made for candidates with disabilities during the recruitment process?\n<bot>: Candidates with disabilities are asked to specify their needs so that reasonable adjustments can be made for them to attend interviews. Those who meet the essential job criteria are guaranteed an interview and are considered based on their merits."
+    },
+    {
+        "text": "<human>: Is there any policy regarding employees referring candidates for open positions?\n<bot>: Yes, employees are encouraged to refer suitable candidates. Referrals should be made via email with the candidate\u00e2\u20ac\u2122s resume and a cover letter. A referral bonus is offered under specific conditions, and the process is transparently managed by HR."
+    },
+    {
+        "text": "<human>: What is the referral bonus, and who is eligible to receive it?\n<bot>: The referral bonus is Rs 15000/-, awarded to employees who successfully refer someone for a full-time, permanent role requiring 2+ years of experience. The bonus is given after the referred employee has remained with the company for about 45 days. Members of the HR department are not eligible for this bonus."
+    },
+    {
+        "text": "<human>: What is the purpose of the Company's Induction Policy?\n<bot>: The Induction Policy aims to ensure that new staff are introduced into their roles and the working environment efficiently and effectively. The policy facilitates a structured process so that new employees can become productive members of the team as quickly as possible."
+    },
+    {
+        "text": "<human>: How does the Induction Policy benefit new employees?\n<bot>: The policy helps new employees settle into the company quickly, enhancing their motivation and productivity from the outset. It ensures that new staff members are introduced to their roles under consistent and supportive conditions, fostering a smooth transition into the company."
+    },
+    {
+        "text": "<human>: What are the expected outcomes of implementing the Induction Policy for the company?\n<bot>: By adhering to the Induction Policy, the company expects to reduce staff turnover, lateness, and absenteeism, and mitigate poor performance. Additionally, the policy supports the development of a leadership-oriented management style and maintains a safe working environment, ultimately reducing costs associated with repeated recruitment and training."
+    },
+    {
+        "text": "<human>: What responsibilities does the Human Resources Department have regarding the Induction Policy?\n<bot>: The Human Resources Department is tasked with issuing guidelines for the induction process, maintaining and updating the policy, and providing checklists for managers and staff. They also handle any problems that arise during the induction period and offer formal training courses necessary for the induction process."
+    },
+    {
+        "text": "<human>: What preparations are made for a new employee before their arrival at the company?\n<bot>: Preparations for a new entrant include arranging necessary workplace resources such as a desk and system. Additionally, colleagues are briefed about the new entrant\u00e2\u20ac\u2122s arrival to foster a welcoming environment, and a buddy is nominated to assist the new employee in settling in quickly and becoming a part of the team."
+    },
+    {
+        "text": "<human>: How is the pay cycle structured for employees at Certainty Infotech?\n<bot>: Employees at Certainty Infotech are paid on a monthly cycle, with salaries automatically deposited electronically into the employee\u00e2\u20ac\u2122s bank account on the second last working day of each month. Taxation payments are also automatically deducted from the salary."
+    },
+    {
+        "text": "<human>: Are there scheduled salary reviews for employees at Certainty Infotech?\n<bot>: Yes, the company reviews employees' salaries on the first anniversary of their employment and subsequently during the June-July cycle each year. However, the company is under no obligation to increase the salary."
+    },
+    {
+        "text": "<human>: What should an employee do if they need to change their pay details?\n<bot>: If an employee needs to change any pay details, such as bank account information, they must notify the Human Resource Department via email. This notification should be made at least 7 working days before the desired effective date of the change."
+    },
+    {
+        "text": "<human>: What is the protocol for reporting lateness or absence from work?\n<bot>: Employees who are late or absent due to illness, injury, or other reasons must inform their supervisor and HR as soon as possible, ideally before their normal starting time. If an employee cannot report personally, they should arrange for someone to inform the office on their behalf. It\u00e2\u20ac\u2122s also advised that medical and other personal appointments be scheduled outside of normal working hours."
+    },
+    {
+        "text": "<human>: How does the company handle the reimbursement of expenses?\n<bot>: Certainty Infotech reimburses employees for pre-approved expenses that are incurred during the proper performance of their duties. For reimbursement, employees must provide receipts or other evidence of the payment and purpose of each expense in a form reasonably required by the company."
+    },
+    {
+        "text": "<human>: What is the initial duration of the internship at the company, and under what circumstances can it be extended or terminated early?\n<bot>: The initial duration of the internship is three months from the date of joining. The internship period may be extended at the discretion of the management based on the intern's performance during weekly or monthly evaluations. Conversely, if the intern's performance does not meet the company's expectations despite prior intimation, the internship can be terminated without any notice period, and there will be no liability for any accrued wages or other benefits."
+    },
+    {
+        "text": "<human>: How are interns evaluated during their internship period?\n<bot>: Interns are evaluated on a weekly or monthly basis to assess their performance and compatibility with the company's expectations and working culture. These evaluations focus on how well the interns adapt to the company environment and how effectively they handle the live projects during their training."
+    },
+    {
+        "text": "<human>: What happens after the completion of the internship period?\n<bot>: Upon completion of the three-month internship period, if the company is satisfied with the intern's performance, their appointment may be confirmed. The decision regarding the performance assessment and subsequent confirmation is made by the management and is communicated through an email or in writing. The appointment is deemed confirmed only from the date specified in such communication."
+    },
+    {
+        "text": "<human>: What is the primary goal of the Performance Appraisal Policy at Certainty Infotech?\n<bot>: The primary goal of the Performance Appraisal Policy is to enhance the effectiveness of the organization by fostering a well-motivated and competent workforce. This is achieved through a structured annual meeting that reviews past performance and sets future objectives aligned with both individual and organizational goals."
+    },
+    {
+        "text": "<human>: How often do performance appraisals occur and what does the process entail?\n<bot>: Performance appraisals at Certainty Infotech are conducted annually, coinciding with an employee\u00e2\u20ac\u2122s work anniversary month. The process includes a formal meeting where past achievements are reviewed, and a Personal Development Plan for the upcoming year is set. This meeting ensures that both the needs of the employee and the organization are addressed."
+    },
+    {
+        "text": "<human>: What is the role of self-assessment in the appraisal process?\n<bot>: Self-assessment plays a crucial role in the appraisal process, allowing employees to reflect on their performance and contributions. Employees are informed about their upcoming appraisal two weeks in advance and are provided with a self-assessment sheet. This sheet is to be completed and submitted to HR/Management one day before their one-to-one appraisal meeting, ensuring their input is considered in the discussion."
+    },
+    {
+        "text": "<human>: How does the appraisal process support employee development and organizational planning?\n<bot>: The appraisal process is instrumental in identifying individual development needs, supporting the objectives of the Training and Development Policy. Additionally, it provides management with valuable data for succession planning, ensuring that the organization can effectively plan for future leadership and operational needs."
+    },
+    {
+        "text": "<human>: What measures are taken to ensure confidentiality and fairness during the appraisal meetings?\n<bot>: The one-to-one appraisal meetings are conducted in private, with sufficient time allocated to ensure a thorough and unhurried discussion. The process is designed to be fair and equitable, adhering to the principles of the Equal Employment Policy. While confidentiality is maintained, it is also made clear that certain information may need to be disclosed for administrative purposes. The outcomes of these meetings are recorded on a KRA sheet, which is agreed upon by both the manager and the employee and subsequently shared with the employee."
+    },
+    {
+        "text": "<human>: What are the basic qualifications for an employee to be considered for promotion at the company?\n<bot>: Employees are eligible for promotion after they have successfully completed their three-month internship period and are not under any performance improvement plan. The promotion is based on several criteria, including job experience or tenure, high performance levels in the four most recent review quarters, possessing the necessary skill set for the new role, and demonstrating personal motivation and willingness to take on new responsibilities."
+    },
+    {
+        "text": "<human>: What is the company\u00e2\u20ac\u2122s process for evaluating employees for promotion?\n<bot>: The company conducts a promotion review process at the end of each year. During this review, managers assess their team members\u00e2\u20ac\u2122 performance and suitability for advancement based on their career goals, performance records, and the alignment of their skills with the needs of higher-level positions or new roles that match their aspirations."
+    },
+    {
+        "text": "<human>: Can promotions occur outside the standard annual review process?\n<bot>: Yes, spontaneous promotions may occur if a business need arises that necessitates an immediate promotion. These are considered outside the standard annual review cycle and are based on specific business requirements and the availability of a suitable candidate within the company."
+    },
+    {
+        "text": "<human>: What steps are involved in the decision-making process for promoting an employee?\n<bot>: The process starts with managers meeting employees to discuss their career goals and creating career plans. Opportunities for promoting one or more team members are identified, which could involve filling vacancies, creating new jobs, or enhancing job titles. The promotion must be discussed with HR and management to get approval, specifically concerning salary adjustments and any changes in benefits. Finally, a meeting is arranged with the employee to ensure they are content with the proposed career move."
+    },
+    {
+        "text": "<human>: How does the company ensure fairness and transparency in the promotion process?\n<bot>: Managers are required to keep detailed records of the promotion process, including discussions, evaluations, and decisions made regarding each employee considered for promotion. This documentation supports the transparency and fairness of the process, ensuring that promotions are merit-based and align with the company\u00e2\u20ac\u2122s guidelines and standards."
+    },
+    {
+        "text": "<human>: What are the main benefits of the Training and Development Policy at Certainty Infotech?\n<bot>: The Training and Development Policy at Certainty Infotech aims to enhance work performance, foster a greater understanding of workplace dynamics, promote the sharing of ideas and good practices, effectively manage and implement changes, build strong teams, and increase motivation and job satisfaction. This holistic approach supports both professional and personal growth within the organization."
+    },
+    {
+        "text": "<human>: What types of training opportunities does Certainty Infotech offer to its employees?\n<bot>: Certainty Infotech provides a variety of training opportunities designed to enhance specific job skills, overall professional capabilities, and personal development. These include participation in workshops, seminars, and personalized learning modules that cater to the needs of individual employees and the organization as a whole."
+    },
+    {
+        "text": "<human>: How does Certainty Infotech encourage employees to engage in personal development?\n<bot>: The company encourages employees to consider a broad range of personal development activities. This encouragement is supported by the human resources department, which provides training in general grooming norms, behavioral dos and don\u00e2\u20ac\u2122ts, and attitudinal aspects, particularly during induction and as needed thereafter."
+    },
+    {
+        "text": "<human>: What type of specialized training is provided to improve technical competencies at Certainty Infotech?\n<bot>: Technical training is specifically conducted by the technical team to ensure that employees possess the necessary competencies and skills required for their respective job roles. This targeted training aims to equip employees with the latest technical knowledge and practices relevant to their fields."
+    },
+    {
+        "text": "<human>: What are the standard office timings from Monday to Friday?\n<bot>: The standard office timings from Monday to Friday are from 10"
+    },
+    {
+        "text": "<human>: What is the policy regarding working hours on Saturdays and Sundays?\n<bot>: Saturdays and Sundays are designated as off days, meaning employees do not work on these days."
+    },
+    {
+        "text": "<human>: Can employees adjust their reporting times within a one-hour window of their normal duty hours?\n<bot>: Yes, employees have the option of Flexi timing to report to the office either 1 hour early or 1 hour late from their normal duty hours, subject to approval from their manager."
+    },
+    {
+        "text": "<human>: Is it possible for the organization to change the standard work hours?\n<bot>: Yes, the organization reserves the right to alter the work hours at its discretion."
+    },
+    {
+        "text": "<human>: How are partial working days accounted for in terms of leave?\n<bot>: If an employee works less than 4 hours on any given day, it will be counted as a FULL-DAY leave. However, if the employee works for at least 4 hours but less than the full duration, it will be considered as HALF-DAY leave. In special circumstances where an employee is called for specific deliverables and works for less than 4 hours, it will also be accounted for as a Half-Day leave."
+    },
+    {
+        "text": "<human>: Apart from Sundays, which other day is considered a weekly-off according to the policy?\n<bot>: Besides Sundays, all Saturdays are counted as weekly-offs as per the policy. However, this can be subject to change based on the requirements and exigencies of the business."
+    },
+    {
+        "text": "<human>: Are there any specific considerations for weekly offs for offices located in the state of Madhya Pradesh?\n<bot>: Yes, for offices in the state of Madhya Pradesh, the number of holidays is governed by the MP Shop and Establishment Act 1958, which may also influence the weekly off policy depending on the situation."
+    },
+    {
+        "text": "<human>: What is the leave year period according to the policy?\n<bot>: The leave year period is from 1st January to 31st December, aligned with the calendar year."
+    },
+    {
+        "text": "<human>: How many days of Privilege/Earned Leave (PL/EL) are employees entitled to?\n<bot>: Employees are entitled to 18 days of Privilege/Earned Leave (PL/EL) per leave year."
+    },
+    {
+        "text": "<human>: What happens if an employee's leave balance becomes extremely negative?\n<bot>: In cases where an employee's leave balance becomes extremely negative, instead of counting the leaves as Leave Without Pay (LWP), a particular pay amount of the employee is held until their leave balance comes to 0."
+    },
+    {
+        "text": "<human>: What are the norms for carry-forward of accumulated Casual Leave (CL), Sick Leave (SL), and Earned Leave (EL)?\n<bot>: Casual Leave (CL) and Sick Leave (SL) lapse every 31st of December of the respective year. Earned Leave (EL) gets carried forward to the next calendar year, subject to a maximum limit of 18 working days. Any excess ELs beyond 18 must be utilized or encashed based on the current basic salary."
+    },
+    {
+        "text": "<human>: How are leaves credited to an employee's leave balance?\n<bot>: All leaves are credited to the employee's leave balance on a pro-rata basis from the date of joining."
+    },
+    {
+        "text": "<human>: What is Leave Without Pay (LWP), and when is it typically availed?\n<bot>: Leave Without Pay (LWP) is a type of leave where an employee takes time off from work without receiving salary. It is typically availed when an employee has exhausted all leave balance but still requires time-off for some exigency."
+    },
+    {
+        "text": "<human>: How is Leave Without Pay (LWP) different from other types of leave?\n<bot>: Leave Without Pay (LWP) involves taking time off from work without receiving salary, resulting in a loss of pay (LOP). Any leave taken in violation of the leave policy, such as going on vacation without prior approval or not providing required medical certificates for long sick leave, is also considered as LOP."
+    },
+    {
+        "text": "<human>: What happens to an employee's leave balance when they go on Leave Without Pay (LWP)?\n<bot>: There is no concept of a leave balance in the case of LOP leave. However, during payroll processing, the salary is deducted for the number of days of LOP leave taken during the month."
+    },
+    {
+        "text": "<human>: Who is eligible for maternity leave at Certainty, and what are the eligibility requirements?\n<bot>: All female employees of Certainty are eligible for maternity leave, provided they have worked for at least 80 days in the 12 months preceding the expected date of delivery. This 80-day period includes days worked and any authorized leaves of absence."
+    },
+    {
+        "text": "<human>: What is the maximum duration for maternity leave under this policy?\n<bot>: The maximum period for which an eligible woman can avail maternity benefits is twenty-six weeks. However, for a woman with two or more surviving children, the entitlement is limited to twelve weeks, of which no more than six weeks can precede the expected date of delivery."
+    },
+    {
+        "text": "<human>: When can an expectant employee start her maternity leave, and what is the process for extending this leave?\n<bot>: An expectant employee can start her maternity leave from any day beginning 8 weeks before the expected date of delivery, depending on her discretion. If there is an illness arising from pregnancy, delivery, premature birth, or miscarriage, the leave can be extended by one month upon submission of medical evidence and a doctor\u00e2\u20ac\u2122s recommendation."
+    },
+    {
+        "text": "<human>: What is the procedure to apply for maternity leave, and how should an employee handle unforeseen circumstances requiring earlier leave?\n<bot>: Employees are advised to get their leave sanctioned by the managing supervisor at least two weeks in advance. In cases of exigencies and special circumstances, shorter notice may be considered. All applications for leave must be in writing, and formal approval must be obtained from the managing supervisor."
+    },
+    {
+        "text": "<human>: Are there provisions for working from home after availing maternity benefits?\n<bot>: Yes, if the nature of the employee's work allows, Certainty will facilitate work-from-home arrangements after the maternity leave period. This is contingent on it being feasible and not impacting business deliverables."
+    },
+    {
+        "text": "<human>: What legislation governs Maternity Leave, and to whom does it apply?\n<bot>: Maternity Leave is governed by the Maternity Benefit Act 1961 and Maternity Benefit (Amendment) Act, 2017. It applies to all women employees of Certainty who have worked for a minimum of 80 days before the expected date of delivery in the preceding 12-month period."
+    },
+    {
+        "text": "<human>: What is the maximum duration of Maternity Leave that a woman employee can avail?\n<bot>: The maximum duration of Maternity Leave that a woman employee can avail is twenty-six weeks"
+    },
+    {
+        "text": "<human>: When can an expectant woman employee start availing Maternity Leave?\n<bot>: An expectant woman employee can start availing Maternity Leave from any day starting 8 weeks before the expected date of delivery, including the day of delivery. However, the exact start date depends on the discretion of the expectant woman."
+    },
+    {
+        "text": "<human>: Can Maternity Leave be extended beyond the standard period, and under what circumstances?\n<bot>: Yes, Maternity Leave can be extended up to one month beyond the period of 26 weeks in case of illness arising from pregnancy, delivery, premature birth, or miscarriage. Valid medical evidence and written recommendations from the concerned registered doctor are required for the extension."
+    },
+    {
+        "text": "<human>: What happens to other types of leave accrual during Maternity Leave?\n<bot>: During Maternity Leave, no Casual Leave (CL), Sick Leave (SL), or Earned Leave (EL) accrues for the employee."
+    },
+    {
+        "text": "<human>: What is the duration of paternity leave offered at Certainty Infotech, and when can it be availed?\n<bot>: Certainty Infotech offers 1 week of paternity leave, which can be taken within 3 months from the date of the child's delivery. This policy applies equally to adoptive parents, providing them the same benefits."
+    },
+    {
+        "text": "<human>: Can an employee extend paternity leave beyond the initial one week?\n<bot>: Yes, employees can opt to extend their paternity leave beyond the initial week. However, any additional leave taken will be considered as Earned Leave (EL) and will be deducted from the employee's leave balance. If the employee lacks sufficient leave balance, the additional days will be counted as Leave Without Pay (LOP)."
+    },
+    {
+        "text": "<human>: What documentation is required for an employee to avail of paternity leave benefits?\n<bot>: To avail of paternity leave benefits, an employee must submit the child\u00e2\u20ac\u2122s birth certificate within 1 month from the date of childbirth. Failure to provide the birth certificate within this timeframe will result in the leaves being counted towards Earned Leave."
+    },
+    {
+        "text": "<human>: Are there any special provisions for work arrangements after the paternity leave period?\n<bot>: While Certainty Infotech generally does not offer a Work From Home (WFH) policy as a standard option, exceptions can be made based on situational needs, such as those driven by the COVID-19 pandemic. The availability of WFH in the future will depend on managerial or HR discretion and work deliverables."
+    },
+    {
+        "text": "<human>: How does the paternity leave policy integrate with the company\u00e2\u20ac\u2122s overall Work-Life Balance policy?\n<bot>: The paternity leave is granted in addition to the normal leaves and holidays provided under the company's Work-Life Balance policy. This ensures that new parents can spend time with their newborn or newly adopted child without impacting their standard leave benefits."
+    },
+    {
+        "text": "<human>: Give me the brief of Work from Home policy\n<bot>: At Certainty Infotech, Work from Home is not an option, it is a situation-driven policy. As per the"
+    },
+    {
+        "text": "<human>: What does Certainty Infotech's harassment policy encompass?\n<bot>: Certainty Infotech's harassment policy is designed to create and maintain a workplace where everyone is treated with dignity, decency, and respect. The policy covers all forms of unlawful discrimination and harassment, ensuring an environment free from intimidation, oppression, and exploitation. All employees, regardless of position, are expected to adhere to this policy and contribute to a harassment-free workplace."
+    },
+    {
+        "text": "<human>: What disciplinary actions does Certainty Infotech take against harassment?\n<bot>: Certainty Infotech takes a firm stance against harassment and will impose appropriate disciplinary actions based on the severity of the violation. These actions can range from a verbal or written reprimand to suspension or termination of employment. The policy is enforced rigorously to prevent, correct, and discipline behavior that violates these standards."
+    },
+    {
+        "text": "<human>: What are the responsibilities of managers and supervisors in enforcing the harassment policy?\n<bot>: Managers and supervisors at Certainty Infotech are required not only to comply with the harassment policy but also to ensure it is strictly followed within their teams. They must immediately report any incidents of discrimination, harassment, or retaliation to human resources. Failure to report or knowingly allowing such behavior can result in disciplinary action against the manager or supervisor involved."
+    },
+    {
+        "text": "<human>: Can you provide examples of what constitutes verbal and nonverbal harassment under this policy?\n<bot>: Verbal harassment may include offensive or unwelcome comments related to a person's protected characteristics such as national origin, race, color, religion, age, gender, sexual orientation, and others. Examples include epithets, slurs, and negative stereotyping. Nonverbal harassment includes actions like distributing, displaying, or discussing written or graphic materials that ridicule, denigrate, or show hostility towards an individual or group based on similar protected characteristics."
+    },
+    {
+        "text": "<human>: How is sexual harassment defined according to Certainty Infotech's anti-harassment policy?\n<bot>: Sexual harassment is defined as \"unwelcome sexual advances, requests for sexual favors, and other verbal or physical conduct of a sexual nature ... when ... submission to or rejection of such conduct is used as the basis for employment decisions ... or such conduct has the purpose or effect of ... creating an intimidating, hostile, or offensive working environment."
+    },
+    {
+        "text": "<human>: What is the purpose of Certainty Infotech's Sexual Harassment policy?\n<bot>: The policy exists to safeguard employee rights, ensure a safe working environment, foster positive relationships among staff, promote job satisfaction, and improve the efficiency and effectiveness of service delivery."
+    },
+    {
+        "text": "<human>: What disciplinary actions may be taken for violations of the Sexual Harassment policy?\n<bot>: Violations of the Sexual Harassment policy may result in disciplinary action, including verbal or written reprimand, suspension, or termination of employment."
+    },
+    {
+        "text": "<human>: What is Certainty Infotech's stance on employee grievances?\n<bot>: Certainty Infotech is committed to the equitable and timely resolution of employee grievances, ensuring that any complaints, disagreements, or claims are heard without fear of unfair treatment or victimization."
+    },
+    {
+        "text": "<human>: How does Certainty Infotech handle grievances that are not resolved at the initial level?\n<bot>: If the complainant(s) do not believe the issue is being resolved, recourse will be available to increasing levels of authority to promote a resolution. A person with the knowledge, expertise, and authority will manage the resolution of a grievance to address the particular complaint."
+    },
+    {
+        "text": "<human>: What is the expectation regarding the dress code for all employees at Certainty Infotech?\n<bot>: All employees, regardless of gender, are advised to dress appropriately befitting their status and profile, as every employee represents the company as its brand ambassador."
+    },
+    {
+        "text": "<human>: What does Certainty Infotech's IT Security Policy define, and what is its purpose?\n<bot>: Certainty Infotech's IT Security Policy defines rules, regulations, and guidelines for the proper usage and maintenance of technological assets to ensure their ethical and acceptable use, as well as to assure the health, safety, and security of data, products, facilities, and the people using them. Its purpose is to set guidelines for issues like purchase, compliance, IT support, and grievance redressal related to technological assets and services used for office work."
+    },
+    {
+        "text": "<human>: What technological assets and services are provided to Certainty Infotech employees for official use?\n<bot>: Certainty Infotech provides and maintains technological products, services, and facilities such as laptops, peripheral equipment, servers, telephones, internet, and application software for official use by its employees."
+    },
+    {
+        "text": "<human>: What action should be taken if an employee is found using a cracked version or unlicensed software on the company's systems?\n<bot>: If an employee is found using a cracked version or unlicensed software on the company's systems, it should be reported to management. The management will then decide whether to continue or stop the usage of the application as per work requirements. Necessary actions will be taken if any cracked version of unaccountable software is found in the office system."
+    },
+    {
+        "text": "<human>: Who is responsible for the maintenance and safety of office assets allotted to employees?\n<bot>: It is the duty of employees to maintain and ensure the safety of the office assets allotted to them. Any damage or loss caused to the assets due to negligence will be borne by the asset holder."
+    },
+    {
+        "text": "<human>: What is the procedure for addressing grievances related to IT assets and services?\n<bot>: The IT Security Policy outlines a grievance redressal process for employees pertaining to technological assets and services used for office work. Employees can raise grievances related to purchase, compliance, IT support, and other related issues, which will be addressed according to the set guidelines."
+    },
+    {
+        "text": "<human>: What is the policy regarding employees engaging in commercial activities outside of their work at Certainty Infotech Pvt. Ltd.?\n<bot>: Employees engaging in commercial activities outside of their work at Certainty Infotech Pvt. Ltd. are subject to management's discretion. If anyone is found involved in such activities without the knowledge of management, actions will be taken accordingly."
+    },
+    {
+        "text": "<human>: How does Certainty Infotech show appreciation to the Employee of the Month, and what is the reimbursement amount?\n<bot>: Certainty Infotech reimburses Rs. 2000/- as an appreciation amount to the Employee of the Month. This reimbursement is accounted for by the company if the bill is submitted on commencement."
+    },
+    {
+        "text": "<human>: What is the reimbursement policy for celebrating Marriage Anniversaries, and how much does Certainty Infotech reimburse?\n<bot>: Certainty Infotech reimburses Rs. 1000/- for dinner or lunch bills to celebrate Marriage Anniversaries. This reimbursement is accounted for by the company if the bill is submitted within a month of commencement."
+    },
+    {
+        "text": "<human>: When does an employee become covered under the Group Medical and Group Accidental Insurance Policy at Certainty Infotech?\n<bot>: All employees are covered under the Group Medical and Group Accidental Insurance Policy from day one of their employment at Certainty Infotech."
+    },
+    {
+        "text": "<human>: How are the costs of Group Medical and Group Accidental Insurance Policies handled at Certainty Infotech?\n<bot>: Certainty Infotech bears all costs related to the Group Medical and Group Accidental Insurance Policies for its employees, with no deductions from the employees' salaries."
+    },
+    {
+        "text": "<human>: Under what circumstances can an employee receive gratuity payment before completing five years of service?\n<bot>: An employee can receive gratuity payment before completing five years of service in case of death, disability, or illness, as per the terms and conditions outlined in the Gratuity Policy."
+    },
+    {
+        "text": "<human>: What is the purpose of gratuity payment according to Certainty Infotech's Gratuity Policy?\n<bot>: Gratuity payment serves as acknowledgment for the services rendered by an employee and is paid when their employment term ends. It is considered as part of an employee's salary and is governed by the Payment of Gratuity Act, 1972."
+    },
+    {
+        "text": "<human>: Who is eligible for food reimbursement under Certainty Infotech's Reimbursement Policy, and what are the maximum claim limits?\n<bot>: Employees who work in the office after 9 PM on weekdays or over weekends due to official engagements, approved by the reporting manager, are eligible for food reimbursement. The maximum claim limit is capped at INR 250 per person per meal."
+    },
+    {
+        "text": "<human>: What criteria must be met for cab fare reimbursement under Certainty Infotech's Reimbursement Policy?\n<bot>: Employees who need to work in the office and leave for home after 9"
+    },
+    {
+        "text": "<human>: What is the notice period requirement for employees resigning from Certainty Infotech?\n<bot>: Employees are required to serve a notice period of two months after the final Exit mail."
+    },
+    {
+        "text": "<human>: What happens to the remaining Earned Leave (EL) of an employee upon resignation?\n<bot>: The remaining Earned Leave (EL) of the employee will be encashed and added to the Full and Final payment."
+    },
+    {
+        "text": "<human>: Under what circumstances is Certainty Infotech entitled to terminate an employee's appointment without notice or payment?\n<bot>: Certainty Infotech may terminate an employee's appointment without notice or payment in cases of dishonesty, disobedience, inactivity, neglect of duty, low performance, or breach of terms and conditions."
+    },
+    {
+        "text": "<human>: What is the purpose of Certainty Infotech's employee exit interview policy?\n<bot>: The purpose of the exit interview policy is to gather useful information about the company from departing employees, explore their reasons for leaving, and discover opportunities for improvement."
+    },
+    {
+        "text": "<human>: Who is responsible for organizing and coordinating exit interviews at Certainty Infotech?\n<bot>: HR is responsible for organizing, coordinating, and in certain cases, conducting exit interviews."
+    },
+    {
+        "text": "<human>: What is employee retention, and how does it benefit an organization?\n<bot>: Employee retention is an employer's strategy to manage turnover and retain valuable employees. It benefits organizations by maintaining a stable workforce and retaining valuable talent."
+    }
+]

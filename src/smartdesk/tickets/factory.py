@@ -1,0 +1,1 @@
+"""Ticket provider factory; implementation pending."""

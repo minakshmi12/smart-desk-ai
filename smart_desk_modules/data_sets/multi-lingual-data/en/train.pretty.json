@@ -1,0 +1,2402 @@
+[
+    {
+        "id":  "l1-0001",
+        "language":  "en",
+        "user_message":  "I can sign in to Windows, but the company portal says my account is locked after a few failed attempts yesterday.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Your account looks locked. Wait 15 minutes, try signing in once with the correct password, and let us know the exact sign-in error if it still fails.",
+        "resolution_steps":  [
+                                 "Confirm the exact lockout or sign-in error message.",
+                                 "Wait 15 minutes and try one sign-in with the correct password.",
+                                 "Verify the account is not locked in the standard support directory tool.",
+                                 "Escalate for manual unlock if the account remains blocked."
+                             ],
+        "tags":  [
+                     "account-lockout",
+                     "sso",
+                     "login"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0002",
+        "language":  "en",
+        "user_message":  "My finance dashboard keeps returning account disabled even though my password works on my laptop login.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Your account looks locked. Wait 15 minutes, try signing in once with the correct password, and let us know the exact sign-in error if it still fails.",
+        "resolution_steps":  [
+                                 "Confirm the exact lockout or sign-in error message.",
+                                 "Wait 15 minutes and try one sign-in with the correct password.",
+                                 "Verify the account is not locked in the standard support directory tool.",
+                                 "Escalate for manual unlock if the account remains blocked."
+                             ],
+        "tags":  [
+                     "account-lockout",
+                     "sso",
+                     "login"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0003",
+        "language":  "en",
+        "user_message":  "After coming back from leave, webmail and the intranet both show that my user is locked.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Your account looks locked. Wait 15 minutes, try signing in once with the correct password, and let us know the exact sign-in error if it still fails.",
+        "resolution_steps":  [
+                                 "Confirm the exact lockout or sign-in error message.",
+                                 "Wait 15 minutes and try one sign-in with the correct password.",
+                                 "Verify the account is not locked in the standard support directory tool.",
+                                 "Escalate for manual unlock if the account remains blocked."
+                             ],
+        "tags":  [
+                     "account-lockout",
+                     "sso",
+                     "login"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0004",
+        "language":  "en",
+        "user_message":  "I am setting up a replacement laptop and the office sign-in page says this account has been blocked.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Your account looks locked. Wait 15 minutes, try signing in once with the correct password, and let us know the exact sign-in error if it still fails.",
+        "resolution_steps":  [
+                                 "Confirm the exact lockout or sign-in error message.",
+                                 "Wait 15 minutes and try one sign-in with the correct password.",
+                                 "Verify the account is not locked in the standard support directory tool.",
+                                 "Escalate for manual unlock if the account remains blocked."
+                             ],
+        "tags":  [
+                     "account-lockout",
+                     "sso",
+                     "login"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0005",
+        "language":  "en",
+        "user_message":  "The SSO page keeps looping and then ends with a message that my account is locked.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Your account looks locked. Wait 15 minutes, try signing in once with the correct password, and let us know the exact sign-in error if it still fails.",
+        "resolution_steps":  [
+                                 "Confirm the exact lockout or sign-in error message.",
+                                 "Wait 15 minutes and try one sign-in with the correct password.",
+                                 "Verify the account is not locked in the standard support directory tool.",
+                                 "Escalate for manual unlock if the account remains blocked."
+                             ],
+        "tags":  [
+                     "account-lockout",
+                     "sso",
+                     "login"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0008",
+        "language":  "en",
+        "user_message":  "Outlook popped up saying my password has expired and I cannot get past the prompt.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Please reset your password through the approved reset page, then sign out and back in to affected apps after a short wait for sync.",
+        "resolution_steps":  [
+                                 "Confirm whether the password is expired or recently changed.",
+                                 "Reset the password in the approved self-service portal.",
+                                 "Sign out of affected apps and wait a few minutes for credential sync.",
+                                 "Sign back in and escalate if the new password is still rejected."
+                             ],
+        "tags":  [
+                     "password",
+                     "credential-sync",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0009",
+        "language":  "en",
+        "user_message":  "I reset my password this morning, but the VPN client still says the credentials are wrong.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Please reset your password through the approved reset page, then sign out and back in to affected apps after a short wait for sync.",
+        "resolution_steps":  [
+                                 "Confirm whether the password is expired or recently changed.",
+                                 "Reset the password in the approved self-service portal.",
+                                 "Sign out of affected apps and wait a few minutes for credential sync.",
+                                 "Sign back in and escalate if the new password is still rejected."
+                             ],
+        "tags":  [
+                     "password",
+                     "credential-sync",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0010",
+        "language":  "en",
+        "user_message":  "My Mac only lets me use cached apps and every new sign-in asks for a password change first.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Please reset your password through the approved reset page, then sign out and back in to affected apps after a short wait for sync.",
+        "resolution_steps":  [
+                                 "Confirm whether the password is expired or recently changed.",
+                                 "Reset the password in the approved self-service portal.",
+                                 "Sign out of affected apps and wait a few minutes for credential sync.",
+                                 "Sign back in and escalate if the new password is still rejected."
+                             ],
+        "tags":  [
+                     "password",
+                     "credential-sync",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0011",
+        "language":  "en",
+        "user_message":  "The self-service page accepted my new password, but webmail keeps rejecting it on my iPhone.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Please reset your password through the approved reset page, then sign out and back in to affected apps after a short wait for sync.",
+        "resolution_steps":  [
+                                 "Confirm whether the password is expired or recently changed.",
+                                 "Reset the password in the approved self-service portal.",
+                                 "Sign out of affected apps and wait a few minutes for credential sync.",
+                                 "Sign back in and escalate if the new password is still rejected."
+                             ],
+        "tags":  [
+                     "password",
+                     "credential-sync",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0012",
+        "language":  "en",
+        "user_message":  "I am getting a password expired message when trying to open Teams and OneDrive on my laptop.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Please reset your password through the approved reset page, then sign out and back in to affected apps after a short wait for sync.",
+        "resolution_steps":  [
+                                 "Confirm whether the password is expired or recently changed.",
+                                 "Reset the password in the approved self-service portal.",
+                                 "Sign out of affected apps and wait a few minutes for credential sync.",
+                                 "Sign back in and escalate if the new password is still rejected."
+                             ],
+        "tags":  [
+                     "password",
+                     "credential-sync",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0015",
+        "language":  "en",
+        "user_message":  "Outlook keeps my messages in the Outbox and nothing is being sent to customers.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_send_failure",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Check Outlook connection status, confirm the mailbox is not full, and test sending a simple message without attachments.",
+        "resolution_steps":  [
+                                 "Verify Outlook shows connected status and the device has internet access.",
+                                 "Check whether the mailbox is full or the message has a large attachment.",
+                                 "Restart Outlook and send a short test email without attachments.",
+                                 "Escalate to the messaging team if mail stays stuck in Outbox."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0016",
+        "language":  "en",
+        "user_message":  "I can open Outlook, but it asks for my password over and over and never loads my inbox.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_login_failure",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Close and reopen Outlook, confirm the password is current, and test sign-in through webmail to isolate whether this is an app or account issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact Outlook sign-in or credential prompt error.",
+                                 "Test the same account in webmail to verify the mailbox is accessible.",
+                                 "Restart Outlook and remove any stale credential prompt if applicable.",
+                                 "Escalate if Outlook still cannot authenticate while webmail works."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0017",
+        "language":  "en",
+        "user_message":  "Every email with an attachment fails to send and Outlook shows a generic send error.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_send_failure",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Check Outlook connection status, confirm the mailbox is not full, and test sending a simple message without attachments.",
+        "resolution_steps":  [
+                                 "Verify Outlook shows connected status and the device has internet access.",
+                                 "Check whether the mailbox is full or the message has a large attachment.",
+                                 "Restart Outlook and send a short test email without attachments.",
+                                 "Escalate to the messaging team if mail stays stuck in Outbox."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0018",
+        "language":  "en",
+        "user_message":  "My Mac Outlook app says it cannot connect to the server and will not sign me in.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_login_failure",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Close and reopen Outlook, confirm the password is current, and test sign-in through webmail to isolate whether this is an app or account issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact Outlook sign-in or credential prompt error.",
+                                 "Test the same account in webmail to verify the mailbox is accessible.",
+                                 "Restart Outlook and remove any stale credential prompt if applicable.",
+                                 "Escalate if Outlook still cannot authenticate while webmail works."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0019",
+        "language":  "en",
+        "user_message":  "Sent mail is staying queued since this morning, and recipients say they never got anything from me.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_send_failure",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Check Outlook connection status, confirm the mailbox is not full, and test sending a simple message without attachments.",
+        "resolution_steps":  [
+                                 "Verify Outlook shows connected status and the device has internet access.",
+                                 "Check whether the mailbox is full or the message has a large attachment.",
+                                 "Restart Outlook and send a short test email without attachments.",
+                                 "Escalate to the messaging team if mail stays stuck in Outbox."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0022",
+        "language":  "en",
+        "user_message":  "The VPN client says authentication failed even though I just reset my password.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm your password and MFA approval, then retry the VPN connection after restarting the client.",
+        "resolution_steps":  [
+                                 "Confirm the exact VPN authentication error message.",
+                                 "Verify the username, password, and MFA approval are correct.",
+                                 "Restart the VPN client and retry the connection.",
+                                 "Escalate to the network team if authentication still fails."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "remote-access",
+                     "authentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0023",
+        "language":  "en",
+        "user_message":  "I am working from home and the VPN disconnects right after I approve the login prompt.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm your password and MFA approval, then retry the VPN connection after restarting the client.",
+        "resolution_steps":  [
+                                 "Confirm the exact VPN authentication error message.",
+                                 "Verify the username, password, and MFA approval are correct.",
+                                 "Restart the VPN client and retry the connection.",
+                                 "Escalate to the network team if authentication still fails."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "remote-access",
+                     "authentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0024",
+        "language":  "en",
+        "user_message":  "My Mac VPN app spins for a minute and then returns an authentication error.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm your password and MFA approval, then retry the VPN connection after restarting the client.",
+        "resolution_steps":  [
+                                 "Confirm the exact VPN authentication error message.",
+                                 "Verify the username, password, and MFA approval are correct.",
+                                 "Restart the VPN client and retry the connection.",
+                                 "Escalate to the network team if authentication still fails."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "remote-access",
+                     "authentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0025",
+        "language":  "en",
+        "user_message":  "The VPN started failing after my password change, and I cannot reach any internal sites now.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm your password and MFA approval, then retry the VPN connection after restarting the client.",
+        "resolution_steps":  [
+                                 "Confirm the exact VPN authentication error message.",
+                                 "Verify the username, password, and MFA approval are correct.",
+                                 "Restart the VPN client and retry the connection.",
+                                 "Escalate to the network team if authentication still fails."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "remote-access",
+                     "authentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0026",
+        "language":  "en",
+        "user_message":  "I get login denied on the VPN from my hotel Wi-Fi, but regular internet works fine.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm your password and MFA approval, then retry the VPN connection after restarting the client.",
+        "resolution_steps":  [
+                                 "Confirm the exact VPN authentication error message.",
+                                 "Verify the username, password, and MFA approval are correct.",
+                                 "Restart the VPN client and retry the connection.",
+                                 "Escalate to the network team if authentication still fails."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "remote-access",
+                     "authentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0029",
+        "language":  "en",
+        "user_message":  "My floor printer shows offline in Windows and nothing prints from any Office app.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Check that the correct printer is selected, clear any stuck jobs, and confirm the device shows online before printing again.",
+        "resolution_steps":  [
+                                 "Confirm the printer name and whether others can print to it.",
+                                 "Clear stuck jobs from the print queue.",
+                                 "Verify the printer is online and selected correctly.",
+                                 "Escalate to desktop support if the printer remains offline."
+                             ],
+        "tags":  [
+                     "printer",
+                     "print-queue",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0030",
+        "language":  "en",
+        "user_message":  "I sent a contract to print, but the shared printer says offline and the job is stuck.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Check that the correct printer is selected, clear any stuck jobs, and confirm the device shows online before printing again.",
+        "resolution_steps":  [
+                                 "Confirm the printer name and whether others can print to it.",
+                                 "Clear stuck jobs from the print queue.",
+                                 "Verify the printer is online and selected correctly.",
+                                 "Escalate to desktop support if the printer remains offline."
+                             ],
+        "tags":  [
+                     "printer",
+                     "print-queue",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0031",
+        "language":  "en",
+        "user_message":  "The printer by reception looks powered on, but my Mac keeps reporting it as offline.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "low",
+        "platform":  "macos",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Check that the correct printer is selected, clear any stuck jobs, and confirm the device shows online before printing again.",
+        "resolution_steps":  [
+                                 "Confirm the printer name and whether others can print to it.",
+                                 "Clear stuck jobs from the print queue.",
+                                 "Verify the printer is online and selected correctly.",
+                                 "Escalate to desktop support if the printer remains offline."
+                             ],
+        "tags":  [
+                     "printer",
+                     "print-queue",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0032",
+        "language":  "en",
+        "user_message":  "Every time I print, the queue pauses because the selected printer is showing offline.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Check that the correct printer is selected, clear any stuck jobs, and confirm the device shows online before printing again.",
+        "resolution_steps":  [
+                                 "Confirm the printer name and whether others can print to it.",
+                                 "Clear stuck jobs from the print queue.",
+                                 "Verify the printer is online and selected correctly.",
+                                 "Escalate to desktop support if the printer remains offline."
+                             ],
+        "tags":  [
+                     "printer",
+                     "print-queue",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0033",
+        "language":  "en",
+        "user_message":  "The label printer in shipping suddenly went offline and we cannot print any packing slips.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Check that the correct printer is selected, clear any stuck jobs, and confirm the device shows online before printing again.",
+        "resolution_steps":  [
+                                 "Confirm the printer name and whether others can print to it.",
+                                 "Clear stuck jobs from the print queue.",
+                                 "Verify the printer is online and selected correctly.",
+                                 "Escalate to desktop support if the printer remains offline."
+                             ],
+        "tags":  [
+                     "printer",
+                     "print-queue",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0036",
+        "language":  "en",
+        "user_message":  "My laptop can see the office Wi-Fi, but it never actually connects and stays on no internet.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0037",
+        "language":  "en",
+        "user_message":  "I got to the office and my Mac will not join the corporate wireless network at all.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0038",
+        "language":  "en",
+        "user_message":  "The Wi-Fi icon keeps dropping out every few minutes and reconnecting on my Windows laptop.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0039",
+        "language":  "en",
+        "user_message":  "My Android phone sees the guest network, but the employee Wi-Fi never finishes connecting.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "low",
+        "platform":  "android",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0040",
+        "language":  "en",
+        "user_message":  "The company SSID appears on my iPhone, but after entering the password it just spins and fails.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "low",
+        "platform":  "ios",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0041",
+        "language":  "en",
+        "user_message":  "I changed desks today and since then my Windows 11 laptop will not stay connected to office Wi-Fi.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the approved Wi-Fi network, forget the saved profile if needed, and test the connection again.",
+        "resolution_steps":  [
+                                 "Confirm the device can see the correct corporate SSID.",
+                                 "Toggle Wi-Fi off and on, then reconnect to the approved network.",
+                                 "Forget the saved network profile and reconnect if the problem continues.",
+                                 "Escalate with the user location if the device still cannot connect."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "wireless",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0043",
+        "language":  "en",
+        "user_message":  "I can reach some sites by IP, but hostnames are not resolving on my Windows laptop.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0044",
+        "language":  "en",
+        "user_message":  "Internal websites fail with server not found, even though the internet is otherwise working.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0045",
+        "language":  "en",
+        "user_message":  "My Mac browser says it cannot find the server for our wiki, but public sites load fine.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0046",
+        "language":  "en",
+        "user_message":  "After reconnecting to VPN, none of the internal site names resolve anymore.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0047",
+        "language":  "en",
+        "user_message":  "Our shared app opens only if I use the direct IP address, not the normal hostname.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0048",
+        "language":  "en",
+        "user_message":  "My laptop reports no DNS response when I try to open the ticketing portal from the office.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a DNS issue. Restart the network connection, test another internal site, and retry after reconnecting to the correct network or VPN.",
+        "resolution_steps":  [
+                                 "Confirm whether only hostnames fail while IP-based access still works.",
+                                 "Restart the network adapter or reconnect the device to the network.",
+                                 "Test another internal hostname or reconnect to VPN if remote.",
+                                 "Escalate to network operations if DNS resolution still fails."
+                             ],
+        "tags":  [
+                     "dns",
+                     "network",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0050",
+        "language":  "en",
+        "user_message":  "One of my Office apps will not open from the Start menu and nothing happens when I click it.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0051",
+        "language":  "en",
+        "user_message":  "The payroll application flashes on screen for a second and then closes right away.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0052",
+        "language":  "en",
+        "user_message":  "I installed the approved software package on my Mac, but the app never gets past the loading screen.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0053",
+        "language":  "en",
+        "user_message":  "After last night update, the reporting app does not launch and shows no error at all.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0054",
+        "language":  "en",
+        "user_message":  "The inventory program opens for other users, but on my laptop it closes before the login box appears.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0055",
+        "language":  "en",
+        "user_message":  "My standard office app icon bounces once and then stops without opening anything.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "low",
+        "platform":  "macos",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, try opening the app again, and note any error text so support can determine whether the problem is local or application-specific.",
+        "resolution_steps":  [
+                                 "Confirm the application name and any visible launch error.",
+                                 "Close the app fully and restart the device.",
+                                 "Retry the app from the standard shortcut or approved install path.",
+                                 "Escalate with the exact error if the app still will not open."
+                             ],
+        "tags":  [
+                     "application",
+                     "launch",
+                     "desktop-app"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0057",
+        "language":  "en",
+        "user_message":  "My laptop battery is dropping even while the charger is plugged in at my desk.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0058",
+        "language":  "en",
+        "user_message":  "The charging light does not come on anymore, and my Windows laptop is stuck at 3 percent.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0059",
+        "language":  "en",
+        "user_message":  "My MacBook says not charging even though the power adapter is connected.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0060",
+        "language":  "en",
+        "user_message":  "The laptop only charges if I hold the cable in a certain position near the port.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0061",
+        "language":  "en",
+        "user_message":  "I moved meeting rooms and now my laptop is not charging from either wall outlet I tried.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0062",
+        "language":  "en",
+        "user_message":  "My battery stayed at 0 percent all night on the dock, so I cannot work unplugged today.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the charger firmly, test another outlet if possible, and check whether the charging indicator comes on.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue occurs with the charger, outlet, or dock.",
+                                 "Reconnect the power adapter and test another outlet if available.",
+                                 "Check for charging indicators or battery status changes.",
+                                 "Escalate for hardware assessment if the laptop still does not charge."
+                             ],
+        "tags":  [
+                     "power",
+                     "battery",
+                     "charger"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0064",
+        "language":  "en",
+        "user_message":  "I am trying to sign in, but the verification code never arrives in my authenticator app.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "high",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0065",
+        "language":  "en",
+        "user_message":  "My iPhone is not getting the MFA prompt, so I cannot finish logging in to office apps.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "high",
+        "platform":  "ios",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0066",
+        "language":  "en",
+        "user_message":  "The authenticator app opens, but no new approval request appears when I try to connect to VPN.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "high",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0067",
+        "language":  "en",
+        "user_message":  "I switched phones and now I am not receiving any MFA codes for my company account.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "high",
+        "platform":  "ios",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0068",
+        "language":  "en",
+        "user_message":  "My login keeps timing out because the expected six-digit code never shows in the app.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "medium",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0069",
+        "language":  "en",
+        "user_message":  "I approved MFA yesterday, but today no push notification arrives on the same phone.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Check network connectivity on the phone, open the authenticator app directly, and confirm the correct work account is still registered.",
+        "resolution_steps":  [
+                                 "Confirm whether the user expects a push notification or an app-generated code.",
+                                 "Check the phone has internet access and automatic time enabled.",
+                                 "Open the authenticator app and confirm the work account is present.",
+                                 "Escalate for MFA reset if approvals or codes still do not arrive."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "authenticator",
+                     "verification"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0071",
+        "language":  "en",
+        "user_message":  "I can open the shared drive root, but the finance folder says access denied.",
+        "category":  "shared_drive_access",
+        "subcategory":  "shared_folder_permission_denied",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm the folder path and try reconnecting the drive, since this may be a permission or mapping issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact shared folder path that returns access denied.",
+                                 "Check whether other shared locations are accessible.",
+                                 "Reconnect the mapped drive or retry the UNC path directly.",
+                                 "Escalate for access review if permission is still denied."
+                             ],
+        "tags":  [
+                     "shared-drive",
+                     "permissions",
+                     "file-access"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0072",
+        "language":  "en",
+        "user_message":  "My mapped drive is visible, but one project folder now says I do not have permission.",
+        "category":  "shared_drive_access",
+        "subcategory":  "shared_folder_permission_denied",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm the folder path and try reconnecting the drive, since this may be a permission or mapping issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact shared folder path that returns access denied.",
+                                 "Check whether other shared locations are accessible.",
+                                 "Reconnect the mapped drive or retry the UNC path directly.",
+                                 "Escalate for access review if permission is still denied."
+                             ],
+        "tags":  [
+                     "shared-drive",
+                     "permissions",
+                     "file-access"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0073",
+        "language":  "en",
+        "user_message":  "The shared folder link on my Mac opens a permission denied message instead of the files.",
+        "category":  "shared_drive_access",
+        "subcategory":  "shared_folder_permission_denied",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm the folder path and try reconnecting the drive, since this may be a permission or mapping issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact shared folder path that returns access denied.",
+                                 "Check whether other shared locations are accessible.",
+                                 "Reconnect the mapped drive or retry the UNC path directly.",
+                                 "Escalate for access review if permission is still denied."
+                             ],
+        "tags":  [
+                     "shared-drive",
+                     "permissions",
+                     "file-access"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0074",
+        "language":  "en",
+        "user_message":  "I was able to reach the team share yesterday, and now the same folder denies access.",
+        "category":  "shared_drive_access",
+        "subcategory":  "shared_folder_permission_denied",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm the folder path and try reconnecting the drive, since this may be a permission or mapping issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact shared folder path that returns access denied.",
+                                 "Check whether other shared locations are accessible.",
+                                 "Reconnect the mapped drive or retry the UNC path directly.",
+                                 "Escalate for access review if permission is still denied."
+                             ],
+        "tags":  [
+                     "shared-drive",
+                     "permissions",
+                     "file-access"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0075",
+        "language":  "en",
+        "user_message":  "Only one subfolder on the shared drive is blocked for me, while the rest open normally.",
+        "category":  "shared_drive_access",
+        "subcategory":  "shared_folder_permission_denied",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm the folder path and try reconnecting the drive, since this may be a permission or mapping issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact shared folder path that returns access denied.",
+                                 "Check whether other shared locations are accessible.",
+                                 "Reconnect the mapped drive or retry the UNC path directly.",
+                                 "Escalate for access review if permission is still denied."
+                             ],
+        "tags":  [
+                     "shared-drive",
+                     "permissions",
+                     "file-access"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0077",
+        "language":  "en",
+        "user_message":  "People cannot hear me in Teams meetings even though my headset is connected.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_microphone_issue",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Check the selected microphone in Teams settings, confirm the device works in another app, and restart Teams before joining the meeting again.",
+        "resolution_steps":  [
+                                 "Confirm whether the microphone fails only in Teams.",
+                                 "Check the selected recording device in Teams and system sound settings.",
+                                 "Test the microphone in another app or audio test tool.",
+                                 "Restart Teams and escalate if audio input is still missing."
+                             ],
+        "tags":  [
+                     "teams",
+                     "microphone",
+                     "audio"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0078",
+        "language":  "en",
+        "user_message":  "Teams is picking up no microphone input on my Mac during calls.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_microphone_issue",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Check the selected microphone in Teams settings, confirm the device works in another app, and restart Teams before joining the meeting again.",
+        "resolution_steps":  [
+                                 "Confirm whether the microphone fails only in Teams.",
+                                 "Check the selected recording device in Teams and system sound settings.",
+                                 "Test the microphone in another app or audio test tool.",
+                                 "Restart Teams and escalate if audio input is still missing."
+                             ],
+        "tags":  [
+                     "teams",
+                     "microphone",
+                     "audio"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0079",
+        "language":  "en",
+        "user_message":  "My microphone works in the voice recorder app, but Teams shows no audio level at all.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_microphone_issue",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Check the selected microphone in Teams settings, confirm the device works in another app, and restart Teams before joining the meeting again.",
+        "resolution_steps":  [
+                                 "Confirm whether the microphone fails only in Teams.",
+                                 "Check the selected recording device in Teams and system sound settings.",
+                                 "Test the microphone in another app or audio test tool.",
+                                 "Restart Teams and escalate if audio input is still missing."
+                             ],
+        "tags":  [
+                     "teams",
+                     "microphone",
+                     "audio"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0080",
+        "language":  "en",
+        "user_message":  "After a Teams update, my laptop mic is no longer working in meetings.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_microphone_issue",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Check the selected microphone in Teams settings, confirm the device works in another app, and restart Teams before joining the meeting again.",
+        "resolution_steps":  [
+                                 "Confirm whether the microphone fails only in Teams.",
+                                 "Check the selected recording device in Teams and system sound settings.",
+                                 "Test the microphone in another app or audio test tool.",
+                                 "Restart Teams and escalate if audio input is still missing."
+                             ],
+        "tags":  [
+                     "teams",
+                     "microphone",
+                     "audio"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0081",
+        "language":  "en",
+        "user_message":  "I join Teams from my iPhone and the meeting starts, but nobody can hear my voice.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_microphone_issue",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Check the selected microphone in Teams settings, confirm the device works in another app, and restart Teams before joining the meeting again.",
+        "resolution_steps":  [
+                                 "Confirm whether the microphone fails only in Teams.",
+                                 "Check the selected recording device in Teams and system sound settings.",
+                                 "Test the microphone in another app or audio test tool.",
+                                 "Restart Teams and escalate if audio input is still missing."
+                             ],
+        "tags":  [
+                     "teams",
+                     "microphone",
+                     "audio"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0083",
+        "language":  "en",
+        "user_message":  "Our web app loads as a blank page unless I disable one of my browser extensions.",
+        "category":  "browser_issue",
+        "subcategory":  "browser_extension_conflict",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Try the site in a private window or with extensions disabled to confirm whether the issue is caused by a browser add-on.",
+        "resolution_steps":  [
+                                 "Confirm which browser and site are affected.",
+                                 "Test the site in a private window.",
+                                 "Disable extensions temporarily and retry the site.",
+                                 "Clear site data and escalate if the page still fails."
+                             ],
+        "tags":  [
+                     "browser",
+                     "extension",
+                     "cache"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0084",
+        "language":  "en",
+        "user_message":  "The browser works on most sites, but the HR portal breaks whenever my extensions are enabled.",
+        "category":  "browser_issue",
+        "subcategory":  "browser_extension_conflict",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Try the site in a private window or with extensions disabled to confirm whether the issue is caused by a browser add-on.",
+        "resolution_steps":  [
+                                 "Confirm which browser and site are affected.",
+                                 "Test the site in a private window.",
+                                 "Disable extensions temporarily and retry the site.",
+                                 "Clear site data and escalate if the page still fails."
+                             ],
+        "tags":  [
+                     "browser",
+                     "extension",
+                     "cache"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0085",
+        "language":  "en",
+        "user_message":  "On my Mac, the internal dashboard only loads correctly in a private browser window.",
+        "category":  "browser_issue",
+        "subcategory":  "browser_extension_conflict",
+        "priority":  "low",
+        "platform":  "macos",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Try the site in a private window or with extensions disabled to confirm whether the issue is caused by a browser add-on.",
+        "resolution_steps":  [
+                                 "Confirm which browser and site are affected.",
+                                 "Test the site in a private window.",
+                                 "Disable extensions temporarily and retry the site.",
+                                 "Clear site data and escalate if the page still fails."
+                             ],
+        "tags":  [
+                     "browser",
+                     "extension",
+                     "cache"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0086",
+        "language":  "en",
+        "user_message":  "A newly installed browser add-on seems to block the ticketing site from opening.",
+        "category":  "browser_issue",
+        "subcategory":  "browser_extension_conflict",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Try the site in a private window or with extensions disabled to confirm whether the issue is caused by a browser add-on.",
+        "resolution_steps":  [
+                                 "Confirm which browser and site are affected.",
+                                 "Test the site in a private window.",
+                                 "Disable extensions temporarily and retry the site.",
+                                 "Clear site data and escalate if the page still fails."
+                             ],
+        "tags":  [
+                     "browser",
+                     "extension",
+                     "cache"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0087",
+        "language":  "en",
+        "user_message":  "The company portal keeps redirecting until it fails, but only in my usual browser profile.",
+        "category":  "browser_issue",
+        "subcategory":  "browser_extension_conflict",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Try the site in a private window or with extensions disabled to confirm whether the issue is caused by a browser add-on.",
+        "resolution_steps":  [
+                                 "Confirm which browser and site are affected.",
+                                 "Test the site in a private window.",
+                                 "Disable extensions temporarily and retry the site.",
+                                 "Clear site data and escalate if the page still fails."
+                             ],
+        "tags":  [
+                     "browser",
+                     "extension",
+                     "cache"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0089",
+        "language":  "en",
+        "user_message":  "I just received a new Windows laptop and I am not sure how to complete the company setup.",
+        "category":  "device_setup",
+        "subcategory":  "new_device_enrollment",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Follow the company setup prompts with the work account, confirm required apps are installed, and note the exact step where enrollment stops if it fails.",
+        "resolution_steps":  [
+                                 "Confirm whether the device is new or recently reimaged.",
+                                 "Sign in with the correct work account and complete enrollment prompts.",
+                                 "Verify required company apps appear after setup.",
+                                 "Escalate to endpoint management if enrollment does not complete."
+                             ],
+        "tags":  [
+                     "enrollment",
+                     "provisioning",
+                     "setup"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0090",
+        "language":  "en",
+        "user_message":  "My replacement MacBook asks for additional company configuration, and I do not know what to select.",
+        "category":  "device_setup",
+        "subcategory":  "new_device_enrollment",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Follow the company setup prompts with the work account, confirm required apps are installed, and note the exact step where enrollment stops if it fails.",
+        "resolution_steps":  [
+                                 "Confirm whether the device is new or recently reimaged.",
+                                 "Sign in with the correct work account and complete enrollment prompts.",
+                                 "Verify required company apps appear after setup.",
+                                 "Escalate to endpoint management if enrollment does not complete."
+                             ],
+        "tags":  [
+                     "enrollment",
+                     "provisioning",
+                     "setup"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0091",
+        "language":  "en",
+        "user_message":  "I need help adding my work email to a new iPhone because it is asking for management approval.",
+        "category":  "device_setup",
+        "subcategory":  "new_device_enrollment",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Follow the company setup prompts with the work account, confirm required apps are installed, and note the exact step where enrollment stops if it fails.",
+        "resolution_steps":  [
+                                 "Confirm whether the device is new or recently reimaged.",
+                                 "Sign in with the correct work account and complete enrollment prompts.",
+                                 "Verify required company apps appear after setup.",
+                                 "Escalate to endpoint management if enrollment does not complete."
+                             ],
+        "tags":  [
+                     "enrollment",
+                     "provisioning",
+                     "setup"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0092",
+        "language":  "en",
+        "user_message":  "I am trying to set up my company apps on a new Android phone and the enrollment step keeps looping.",
+        "category":  "device_setup",
+        "subcategory":  "new_device_enrollment",
+        "priority":  "medium",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Follow the company setup prompts with the work account, confirm required apps are installed, and note the exact step where enrollment stops if it fails.",
+        "resolution_steps":  [
+                                 "Confirm whether the device is new or recently reimaged.",
+                                 "Sign in with the correct work account and complete enrollment prompts.",
+                                 "Verify required company apps appear after setup.",
+                                 "Escalate to endpoint management if enrollment does not complete."
+                             ],
+        "tags":  [
+                     "enrollment",
+                     "provisioning",
+                     "setup"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0093",
+        "language":  "en",
+        "user_message":  "The new laptop finished imaging, but I do not see the standard office applications after signing in.",
+        "category":  "device_setup",
+        "subcategory":  "new_device_enrollment",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Follow the company setup prompts with the work account, confirm required apps are installed, and note the exact step where enrollment stops if it fails.",
+        "resolution_steps":  [
+                                 "Confirm whether the device is new or recently reimaged.",
+                                 "Sign in with the correct work account and complete enrollment prompts.",
+                                 "Verify required company apps appear after setup.",
+                                 "Escalate to endpoint management if enrollment does not complete."
+                             ],
+        "tags":  [
+                     "enrollment",
+                     "provisioning",
+                     "setup"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0095",
+        "language":  "en",
+        "user_message":  "My laptop has been running very slowly since this morning, even for basic tasks like opening email.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_workstation",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, close heavy applications, and check whether the slowdown affects the whole workstation or just one app.",
+        "resolution_steps":  [
+                                 "Confirm when the slowness started and whether all apps are affected.",
+                                 "Restart the workstation and close heavy applications or browser tabs.",
+                                 "Check for low disk space or background sync activity.",
+                                 "Escalate if the workstation remains slow after basic checks."
+                             ],
+        "tags":  [
+                     "performance",
+                     "slow",
+                     "workstation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0096",
+        "language":  "en",
+        "user_message":  "Everything on my desktop is lagging, including typing in Teams and switching between windows.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_workstation",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, close heavy applications, and check whether the slowdown affects the whole workstation or just one app.",
+        "resolution_steps":  [
+                                 "Confirm when the slowness started and whether all apps are affected.",
+                                 "Restart the workstation and close heavy applications or browser tabs.",
+                                 "Check for low disk space or background sync activity.",
+                                 "Escalate if the workstation remains slow after basic checks."
+                             ],
+        "tags":  [
+                     "performance",
+                     "slow",
+                     "workstation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0097",
+        "language":  "en",
+        "user_message":  "My MacBook is unusually slow today and applications are taking a long time to open.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_workstation",
+        "priority":  "medium",
+        "platform":  "macos",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, close heavy applications, and check whether the slowdown affects the whole workstation or just one app.",
+        "resolution_steps":  [
+                                 "Confirm when the slowness started and whether all apps are affected.",
+                                 "Restart the workstation and close heavy applications or browser tabs.",
+                                 "Check for low disk space or background sync activity.",
+                                 "Escalate if the workstation remains slow after basic checks."
+                             ],
+        "tags":  [
+                     "performance",
+                     "slow",
+                     "workstation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0098",
+        "language":  "en",
+        "user_message":  "The workstation becomes sluggish every time I connect to the shared drive and open Outlook.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_workstation",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, close heavy applications, and check whether the slowdown affects the whole workstation or just one app.",
+        "resolution_steps":  [
+                                 "Confirm when the slowness started and whether all apps are affected.",
+                                 "Restart the workstation and close heavy applications or browser tabs.",
+                                 "Check for low disk space or background sync activity.",
+                                 "Escalate if the workstation remains slow after basic checks."
+                             ],
+        "tags":  [
+                     "performance",
+                     "slow",
+                     "workstation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0099",
+        "language":  "en",
+        "user_message":  "After the latest update, my laptop fan runs constantly and the whole system responds slowly.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_workstation",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restart the device, close heavy applications, and check whether the slowdown affects the whole workstation or just one app.",
+        "resolution_steps":  [
+                                 "Confirm when the slowness started and whether all apps are affected.",
+                                 "Restart the workstation and close heavy applications or browser tabs.",
+                                 "Check for low disk space or background sync activity.",
+                                 "Escalate if the workstation remains slow after basic checks."
+                             ],
+        "tags":  [
+                     "performance",
+                     "slow",
+                     "workstation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0101",
+        "language":  "en",
+        "user_message":  "The company portal signs me out every few minutes and asks me to log in again, even though my password is correct.",
+        "category":  "account_access",
+        "subcategory":  "session_token_expired",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Sign out fully, close the browser, and start a fresh session because this often comes from stale cookies or an expired sign-in session.",
+        "resolution_steps":  [
+                                 "Confirm whether the repeated sign-out affects one site or multiple apps.",
+                                 "Sign out fully and close the browser.",
+                                 "Retry the site in a fresh or private browser session.",
+                                 "Escalate if the session still expires immediately."
+                             ],
+        "tags":  [
+                     "session",
+                     "sso",
+                     "reauthentication"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0102",
+        "language":  "en",
+        "user_message":  "Outlook is warning that my mailbox is almost full, and I am worried new mail will stop arriving.",
+        "category":  "email_issue",
+        "subcategory":  "mailbox_quota_warning",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Your mailbox is close to its storage limit. Delete unneeded mail, empty Deleted Items, and archive older messages if your team uses archiving.",
+        "resolution_steps":  [
+                                 "Confirm Outlook or webmail shows a mailbox quota warning.",
+                                 "Remove unnecessary large messages and empty Deleted Items.",
+                                 "Archive older mail if that is part of the standard process.",
+                                 "Escalate to the messaging team if the mailbox remains near quota."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mailbox",
+                     "quota"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0103",
+        "language":  "en",
+        "user_message":  "My Outlook folders have not updated since yesterday, and I am missing new messages on this laptop.",
+        "category":  "email_issue",
+        "subcategory":  "mailbox_sync_delay",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Check whether Outlook is offline, restart the app, and compare with webmail to confirm whether the issue is sync-related or service-related.",
+        "resolution_steps":  [
+                                 "Confirm whether new mail is missing only in Outlook desktop.",
+                                 "Check whether Outlook is set to Working Offline or shows connection issues.",
+                                 "Restart Outlook and verify network connectivity.",
+                                 "Escalate if Outlook still does not sync while webmail updates normally."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "sync",
+                     "mailflow"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0104",
+        "language":  "en",
+        "user_message":  "The VPN client opens, but it says the endpoint is unavailable before I can even log in.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_endpoint_unreachable",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Check that your internet connection is stable and retry the VPN from another network if possible, since the gateway may be unreachable from the current connection.",
+        "resolution_steps":  [
+                                 "Confirm regular internet access works before opening the VPN client.",
+                                 "Close and reopen the VPN client and retry after a short wait.",
+                                 "Test from another network such as a mobile hotspot if available.",
+                                 "Escalate with the failure time if the VPN endpoint remains unreachable."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "gateway",
+                     "connectivity"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0105",
+        "language":  "en",
+        "user_message":  "My laptop keeps printing to the wrong office printer even after I select the correct one.",
+        "category":  "printer_issue",
+        "subcategory":  "wrong_default_printer",
+        "priority":  "low",
+        "platform":  "windows_11",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Set the correct device as the default printer, clear any queued jobs on the wrong printer, and test with a new print job.",
+        "resolution_steps":  [
+                                 "Confirm which printer should be the default device.",
+                                 "Check the current default printer in system settings.",
+                                 "Remove any queued jobs sent to the wrong printer.",
+                                 "Set the correct printer as default and test again."
+                             ],
+        "tags":  [
+                     "printer",
+                     "default-printer",
+                     "queue"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0106",
+        "language":  "en",
+        "user_message":  "The office Wi-Fi connects on my laptop, but video calls keep freezing because the connection drops for a few seconds.",
+        "category":  "wifi_issue",
+        "subcategory":  "intermittent_wifi_drop",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "This looks like a wireless stability issue. Reconnect to the approved SSID, restart the adapter, and note whether the drops happen in one location only.",
+        "resolution_steps":  [
+                                 "Confirm whether the drops happen only in a specific office area.",
+                                 "Reconnect to the approved Wi-Fi network and remove duplicate saved networks.",
+                                 "Restart the wireless adapter or reboot the device.",
+                                 "Escalate to network support if the connection keeps dropping."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "roaming",
+                     "stability"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0107",
+        "language":  "en",
+        "user_message":  "I can browse the internet, but I cannot reach our internal file server by name or by mapped drive.",
+        "category":  "network_issue",
+        "subcategory":  "internal_server_unreachable",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Confirm you are on the office network or VPN, then retry the internal server path to see whether this is a local path issue or a server-side problem.",
+        "resolution_steps":  [
+                                 "Confirm whether other internal resources are reachable.",
+                                 "Reconnect to the office network or VPN if needed.",
+                                 "Retry the server by network path or mapped location.",
+                                 "Escalate to the server or network team if the resource remains unavailable."
+                             ],
+        "tags":  [
+                     "network",
+                     "server",
+                     "mapped-drive"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0108",
+        "language":  "en",
+        "user_message":  "The software update starts downloading, but the install fails every time with a generic error.",
+        "category":  "software_issue",
+        "subcategory":  "update_install_failure",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Close the application, retry the update after a restart, and confirm the device has enough space and a stable connection.",
+        "resolution_steps":  [
+                                 "Confirm which update is failing and capture any error text.",
+                                 "Restart the device and retry the installation.",
+                                 "Check that storage space and network connectivity are sufficient.",
+                                 "Escalate to software support if the update continues to fail."
+                             ],
+        "tags":  [
+                     "software",
+                     "update",
+                     "installation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0110",
+        "language":  "en",
+        "user_message":  "I get the MFA prompt, but the code in the app never works and says it is invalid.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_invalid",
+        "priority":  "high",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Invalid codes usually point to time sync or registration issues. Check that the phone time is automatic and retry from the correct account entry in the authenticator app.",
+        "resolution_steps":  [
+                                 "Confirm whether the issue affects app-generated codes specifically.",
+                                 "Set the phone time to automatic and reopen the authenticator app.",
+                                 "Verify the correct work account entry is being used.",
+                                 "Escalate for MFA reset if the code remains invalid."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "otp",
+                     "authenticator"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0111",
+        "language":  "en",
+        "user_message":  "My shared drive letter is missing completely after I logged back in this morning.",
+        "category":  "shared_drive_access",
+        "subcategory":  "mapped_drive_missing",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to the correct network or VPN, then remap the drive or open the shared path directly to restore access.",
+        "resolution_steps":  [
+                                 "Confirm the expected drive letter and shared path.",
+                                 "Reconnect to the office network or VPN if applicable.",
+                                 "Retry the path directly or remap the drive.",
+                                 "Escalate if the drive still does not appear after reconnecting."
+                             ],
+        "tags":  [
+                     "shared-drive",
+                     "mapped-drive",
+                     "reconnect"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0113",
+        "language":  "en",
+        "user_message":  "The browser suddenly shows a certificate warning for our internal portal that normally opens without any issue.",
+        "category":  "browser_issue",
+        "subcategory":  "certificate_warning",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Do not bypass the warning. Capture the message details and test in another browser so support can confirm whether this is a certificate issue.",
+        "resolution_steps":  [
+                                 "Confirm the exact site address and certificate warning text.",
+                                 "Do not bypass the browser warning.",
+                                 "Test the same site in another browser if available.",
+                                 "Escalate the issue with a screenshot of the warning."
+                             ],
+        "tags":  [
+                     "browser",
+                     "certificate",
+                     "security"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0114",
+        "language":  "en",
+        "user_message":  "My docking station is charging the laptop, but my keyboard and mouse connected to the dock are not responding.",
+        "category":  "device_setup",
+        "subcategory":  "dock_peripheral_setup",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect the dock, test the keyboard and mouse directly, and verify the peripherals respond through another dock port if available.",
+        "resolution_steps":  [
+                                 "Confirm the peripherals work when connected directly to the laptop.",
+                                 "Reconnect the dock cable and power cycle the dock if possible.",
+                                 "Test the keyboard and mouse in another dock port.",
+                                 "Escalate if dock-connected peripherals still do not respond."
+                             ],
+        "tags":  [
+                     "dock",
+                     "keyboard",
+                     "mouse"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0115",
+        "language":  "en",
+        "user_message":  "My laptop takes much longer than usual to reach the sign-in screen after powering on.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_startup",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "If startup is consistently slow, restart once more, confirm whether updates are pending, and note whether the delay happens before or after the sign-in screen.",
+        "resolution_steps":  [
+                                 "Confirm whether the slow boot began recently or after an update.",
+                                 "Restart the device again and compare the next startup time.",
+                                 "Check for pending updates or low storage space.",
+                                 "Escalate if the device remains unusually slow to start."
+                             ],
+        "tags":  [
+                     "startup",
+                     "boot",
+                     "performance"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0116",
+        "language":  "en",
+        "user_message":  "The password reset page opens, but after I submit the new password it says the old password was entered incorrectly.",
+        "category":  "password_reset",
+        "subcategory":  "password_change_validation_error",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "This usually means the current password or the reset session was not accepted. Re-enter the current password carefully and retry in a fresh browser session.",
+        "resolution_steps":  [
+                                 "Confirm whether the user is changing a known password or resetting a forgotten one.",
+                                 "Re-enter the current password carefully and verify the new password meets policy rules.",
+                                 "Retry the password change in a fresh browser window.",
+                                 "Escalate with the exact validation error if the reset still fails."
+                             ],
+        "tags":  [
+                     "password",
+                     "reset",
+                     "validation"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0117",
+        "language":  "en",
+        "user_message":  "Outlook on my iPhone keeps asking me to re-enter the account password every few hours.",
+        "category":  "email_issue",
+        "subcategory":  "mobile_outlook_reauth_loop",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "This usually points to a stale mobile sign-in session. Re-add the work account in Outlook Mobile after confirming there was no recent password or MFA change.",
+        "resolution_steps":  [
+                                 "Confirm whether the repeated prompt affects Outlook Mobile only.",
+                                 "Check whether the password was changed recently or MFA was updated.",
+                                 "Remove and re-add the work account in Outlook Mobile if standard policy allows.",
+                                 "Escalate if the reauthentication loop continues after re-adding the account."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "mobile",
+                     "reauth"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0118",
+        "language":  "en",
+        "user_message":  "My Mac can connect to Wi-Fi, but it is much slower than everyone else around me in the same room.",
+        "category":  "wifi_issue",
+        "subcategory":  "poor_wifi_speed",
+        "priority":  "low",
+        "platform":  "macos",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Reconnect to Wi-Fi, test performance again, and compare with nearby users to confirm whether the slowdown is device-specific.",
+        "resolution_steps":  [
+                                 "Confirm whether all websites are slow or only one service.",
+                                 "Reconnect to the approved Wi-Fi network.",
+                                 "Move closer to the access point if practical and retest.",
+                                 "Escalate if the issue affects only this device after basic checks."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "speed",
+                     "wireless"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    }
+]

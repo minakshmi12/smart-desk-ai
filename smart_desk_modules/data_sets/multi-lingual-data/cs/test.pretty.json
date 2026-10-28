@@ -1,0 +1,302 @@
+[
+    {
+        "id":  "l1-0006",
+        "language":  "cs",
+        "user_message":  "E-maily v telefonu ještě číst můžu, ale HR aplikace na Macu hlásí, že je účet zakázaný.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "high",
+        "platform":  "macos",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Váš účet vypadá jako uzamčený. Počkejte 15 minut, zkuste se jednou přihlásit správným heslem a dejte nám vědět přesnou chybu, pokud to bude dál selhávat.",
+        "resolution_steps":  [
+                                 "Potvrďte přesné hlášení o uzamčení nebo chybě přihlášení.",
+                                 "Počkejte 15 minut a zkuste jedno přihlášení správným heslem.",
+                                 "Ověřte, že účet není uzamčený ve standardním adresářovém nástroji podpory.",
+                                 "Pokud účet zůstane blokovaný, předejte požadavek na ruční odemčení."
+                             ],
+        "tags":  [
+                     "zamceny-ucet",
+                     "sso",
+                     "prihlaseni"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0013",
+        "language":  "cs",
+        "user_message":  "O víkendu jsem heslo zapomněl a reset proběhl, ale do firemního portálu se pořád nemohu přihlásit.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Resetujte heslo přes schválený reset portál, potom se odhlaste a po krátké synchronizaci se znovu přihlaste do dotčených aplikací.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda heslo opravdu vypršelo nebo bylo nedávno změněno.",
+                                 "Resetujte heslo ve schváleném samoobslužném portálu.",
+                                 "Odhlaste se z dotčených aplikací a pár minut počkejte na synchronizaci přihlašovacích údajů.",
+                                 "Znovu se přihlaste a při dalším odmítnutí předejte požadavek dál."
+                             ],
+        "tags":  [
+                     "heslo",
+                     "synchronizace-prihlaseni",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0020",
+        "language":  "cs",
+        "user_message":  "Outlook na notebooku ukazuje ve stavovém řádku potřebu zadat heslo a schránka se vůbec neotevře.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_login_failure",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Zavřete a znovu otevřete Outlook, ověřte, že heslo je aktuální, a zkuste přihlášení přes webmail, abyste zjistili, zda jde o problém aplikace nebo účtu.",
+        "resolution_steps":  [
+                                 "Potvrďte přesnou chybu přihlášení Outlooku nebo výzvu k zadání hesla.",
+                                 "Otestujte stejný účet ve webmailu a ověřte přístup ke schránce.",
+                                 "Restartujte Outlook a odstraňte případnou zastaralou výzvu k zadání přihlašovacích údajů.",
+                                 "Pokud se Outlook stále neověří, ale webmail funguje, předejte incident dál."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "schranka",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0027",
+        "language":  "cs",
+        "user_message":  "VPN aplikace na Androidu pokaždé při pokusu o připojení hlásí zamítnuté přihlašovací údaje.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "medium",
+        "platform":  "android",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Ověřte heslo a MFA schválení, potom po restartu klienta zkuste VPN připojení znovu.",
+        "resolution_steps":  [
+                                 "Potvrďte přesnou chybu ověření ve VPN klientu.",
+                                 "Ověřte, že jsou správně uživatelské jméno, heslo i MFA schválení.",
+                                 "Restartujte VPN klient a zkuste připojení znovu.",
+                                 "Pokud ověření dál selhává, předejte incident síťovému týmu."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "vzdaleny-pristup",
+                     "autentizace"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0034",
+        "language":  "cs",
+        "user_message":  "Notebook kancelářskou tiskárnu vidí, ale jakmile se pokusím tisknout, přepne se na offline.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Zkontrolujte, že je vybraná správná tiskárna, vymažte zaseknuté úlohy a ověřte, že je zařízení online, než zkusíte tisk znovu.",
+        "resolution_steps":  [
+                                 "Potvrďte název tiskárny a zda na ni mohou tisknout i ostatní.",
+                                 "Vymažte zaseknuté úlohy z tiskové fronty.",
+                                 "Ověřte, že je tiskárna online a správně zvolená.",
+                                 "Pokud tiskárna zůstává offline, předejte incident desktop supportu."
+                             ],
+        "tags":  [
+                     "tiskarna",
+                     "fronta-tisku",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0076",
+        "language":  "cs",
+        "user_message":  "Sdílený disk se po restartu znovu připojí, ale jedna konkrétní složka oddělení stále hlásí přístup odepřen.",
+        "category":  "shared_drive_access",
+        "subcategory":  "shared_folder_permission_denied",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "shared_drive",
+        "environment":  "enterprise",
+        "expected_response":  "Potvrďte cestu ke složce a zkuste disk znovu připojit, protože může jít o problém oprávnění nebo mapování.",
+        "resolution_steps":  [
+                                 "Potvrďte přesnou cestu ke sdílené složce, která vrací přístup odepřen.",
+                                 "Zkontrolujte, zda jsou dostupná i jiná sdílená umístění.",
+                                 "Znovu připojte mapovanou jednotku nebo zkuste UNC cestu přímo.",
+                                 "Pokud je přístup stále odepřen, předejte požadavek na kontrolu oprávnění."
+                             ],
+        "tags":  [
+                     "sdileny-disk",
+                     "opravneni",
+                     "pristup-k-souborum"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0082",
+        "language":  "cs",
+        "user_message":  "Teams stále přepíná pryč z mikrofonu v mém USB headsetu a místo něj nepoužívá nic.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_microphone_issue",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Zkontrolujte vybraný mikrofon v nastavení Teams, ověřte, že zařízení funguje v jiné aplikaci, a před dalším připojením do schůzky Teams restartujte.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda mikrofon selhává jen v Teams.",
+                                 "Zkontrolujte vybrané nahrávací zařízení v Teams i v nastavení zvuku systému.",
+                                 "Otestujte mikrofon v jiné aplikaci nebo nástroji pro test zvuku.",
+                                 "Restartujte Teams a pokud vstup stále chybí, předejte incident dál."
+                             ],
+        "tags":  [
+                     "teams",
+                     "mikrofon",
+                     "audio"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0088",
+        "language":  "cs",
+        "user_message":  "Můj prohlížeč začal po omylém zapnutí kupónového rozšíření zobrazovat na webu výdajů chyby skriptů.",
+        "category":  "browser_issue",
+        "subcategory":  "browser_extension_conflict",
+        "priority":  "low",
+        "platform":  "windows_11",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Vyzkoušejte web v anonymním okně nebo s vypnutými rozšířeními, abyste ověřili, zda problém nezpůsobuje doplněk prohlížeče.",
+        "resolution_steps":  [
+                                 "Potvrďte, který prohlížeč a web jsou dotčené.",
+                                 "Otestujte stránku v anonymním okně.",
+                                 "Dočasně vypněte rozšíření a stránku načtěte znovu.",
+                                 "Vymažte data webu a pokud problém trvá, předejte incident dál."
+                             ],
+        "tags":  [
+                     "prohlizec",
+                     "rozsireni",
+                     "cache"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0094",
+        "language":  "cs",
+        "user_message":  "Na novém zařízení se přihlásím, ale v seznamu firemního nastavení chybí Teams a Outlook.",
+        "category":  "device_setup",
+        "subcategory":  "new_device_enrollment",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Postupujte podle firemních setup kroků s pracovním účtem, ověřte instalaci požadovaných aplikací a poznamenejte si přesný krok, kde registrace končí, pokud selže.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda je zařízení nové nebo nově přeinstalované.",
+                                 "Přihlaste se správným pracovním účtem a dokončete registrační kroky.",
+                                 "Ověřte, že se po setupu zobrazí požadované firemní aplikace.",
+                                 "Pokud registrace nedokončí, předejte incident endpoint management týmu."
+                             ],
+        "tags":  [
+                     "registrace-zarizeni",
+                     "provisioning",
+                     "nastaveni"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0100",
+        "language":  "cs",
+        "user_message":  "Prohlížeč, Outlook i Průzkumník souborů se na tomto notebooku vždy na pár sekund zaseknou.",
+        "category":  "performance_issue",
+        "subcategory":  "slow_workstation",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restartujte zařízení, zavřete náročné aplikace a ověřte, zda se zpomalení týká celé stanice, nebo jen jedné aplikace.",
+        "resolution_steps":  [
+                                 "Potvrďte, kdy zpomalení začalo a zda ovlivňuje všechny aplikace.",
+                                 "Restartujte pracovní stanici a zavřete náročné aplikace nebo karty v prohlížeči.",
+                                 "Zkontrolujte, zda není málo místa na disku nebo neběží synchronizace na pozadí.",
+                                 "Pokud stanice zůstává pomalá i po základní kontrole, předejte incident dál."
+                             ],
+        "tags":  [
+                     "vykon",
+                     "pomaly",
+                     "stanice"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0112",
+        "language":  "cs",
+        "user_message":  "Teams meetingy fungují, ale kamera zůstává černá, i když se na notebooku rozsvítí kontrolka kamery.",
+        "category":  "teams_issue",
+        "subcategory":  "teams_camera_issue",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "microsoft_teams",
+        "environment":  "enterprise",
+        "expected_response":  "Zkontrolujte vybranou kameru v Teams, potvrďte oprávnění kamery v systému a zavřete všechny ostatní aplikace, které ji mohou používat.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda kamera funguje v jiné testovací aplikaci.",
+                                 "Zkontrolujte vybranou kameru v nastavení Teams.",
+                                 "Ověřte oprávnění kamery v systému a zavřete ostatní aplikace, které ji používají.",
+                                 "Restartujte Teams a pokud obraz zůstává černý, předejte incident dál."
+                             ],
+        "tags":  [
+                     "teams",
+                     "kamera",
+                     "video"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0120",
+        "language":  "cs",
+        "user_message":  "Po přihlášení se dá notebook používat, ale ventilátor je pořád hlučný a Správce úloh ukazuje jeden proces na pozadí s velmi vysokým využitím CPU.",
+        "category":  "performance_issue",
+        "subcategory":  "high_cpu_usage",
+        "priority":  "high",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Restartujte notebook, ověřte, zda se stejný proces vrátí, a zavřete nepotřebné aplikace, aby se potvrdilo, zda jde o trvalý problém s vysokým vytížením CPU.",
+        "resolution_steps":  [
+                                 "Potvrďte, který proces vykazuje vysoké využití CPU.",
+                                 "Restartujte notebook a ověřte, zda se stejný proces vrátí.",
+                                 "Zavřete nepotřebné aplikace a zkontrolujte, zda využití CPU klesne.",
+                                 "Pokud vysoké využití CPU pokračuje i po restartu, předejte incident dál."
+                             ],
+        "tags":  [
+                     "cpu",
+                     "vykon",
+                     "proces"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    }
+]

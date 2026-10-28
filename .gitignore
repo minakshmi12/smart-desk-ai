@@ -1,0 +1,22 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated indexes and local data
+/data/vector_store/*
+!/data/vector_store/.gitkeep
+
+# Editor and OS files
+.DS_Store
+.vscode/

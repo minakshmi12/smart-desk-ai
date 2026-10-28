@@ -1,0 +1,302 @@
+[
+    {
+        "id":  "l1-0007",
+        "language":  "cs",
+        "user_message":  "Včera jsem několikrát zadal špatné heslo a teď všechny cloudové aplikace hlásí, že je můj účet uzamčený.",
+        "category":  "account_access",
+        "subcategory":  "account_locked",
+        "priority":  "low",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Váš účet vypadá jako uzamčený. Počkejte 15 minut, zkuste se jednou přihlásit správným heslem a dejte nám vědět přesnou chybu, pokud to bude dál selhávat.",
+        "resolution_steps":  [
+                                 "Potvrďte přesné hlášení o uzamčení nebo chybě přihlášení.",
+                                 "Počkejte 15 minut a zkuste jedno přihlášení správným heslem.",
+                                 "Ověřte, že účet není uzamčený ve standardním adresářovém nástroji podpory.",
+                                 "Pokud účet zůstane blokovaný, předejte požadavek na ruční odemčení."
+                             ],
+        "tags":  [
+                     "zamceny-ucet",
+                     "sso",
+                     "prihlaseni"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0014",
+        "language":  "cs",
+        "user_message":  "Moje poštovní aplikace na Androidu po vypršení hesla přes noc stále žádá nové přihlašovací údaje.",
+        "category":  "password_reset",
+        "subcategory":  "password_expired",
+        "priority":  "low",
+        "platform":  "android",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Resetujte heslo přes schválený reset portál, potom se odhlaste a po krátké synchronizaci se znovu přihlaste do dotčených aplikací.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda heslo opravdu vypršelo nebo bylo nedávno změněno.",
+                                 "Resetujte heslo ve schváleném samoobslužném portálu.",
+                                 "Odhlaste se z dotčených aplikací a pár minut počkejte na synchronizaci přihlašovacích údajů.",
+                                 "Znovu se přihlaste a při dalším odmítnutí předejte požadavek dál."
+                             ],
+        "tags":  [
+                     "heslo",
+                     "synchronizace-prihlaseni",
+                     "reset"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0021",
+        "language":  "cs",
+        "user_message":  "V telefonu e-maily přijímám, ale Outlook na počítači odmítá odeslat jakoukoli novou zprávu.",
+        "category":  "email_issue",
+        "subcategory":  "outlook_send_failure",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "microsoft_outlook",
+        "environment":  "enterprise",
+        "expected_response":  "Zkontrolujte stav připojení Outlooku, ověřte, že schránka není plná, a zkuste odeslat jednoduchou zprávu bez příloh.",
+        "resolution_steps":  [
+                                 "Ověřte, že Outlook ukazuje připojený stav a zařízení má internet.",
+                                 "Zkontrolujte, zda schránka není plná nebo zpráva neobsahuje příliš velkou přílohu.",
+                                 "Restartujte Outlook a odešlete krátký testovací e-mail bez příloh.",
+                                 "Pokud pošta zůstává ve složce k odeslání, předejte incident týmu pro messaging."
+                             ],
+        "tags":  [
+                     "outlook",
+                     "schranka",
+                     "smtp"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0028",
+        "language":  "cs",
+        "user_message":  "VPN klient na iPhonu otevřu, ale po schválení přihlášení se hned vrátí zpět na přihlašovací obrazovku.",
+        "category":  "vpn_issue",
+        "subcategory":  "vpn_authentication_error",
+        "priority":  "medium",
+        "platform":  "ios",
+        "product":  "vpn_client",
+        "environment":  "enterprise",
+        "expected_response":  "Ověřte heslo a MFA schválení, potom po restartu klienta zkuste VPN připojení znovu.",
+        "resolution_steps":  [
+                                 "Potvrďte přesnou chybu ověření ve VPN klientu.",
+                                 "Ověřte, že jsou správně uživatelské jméno, heslo i MFA schválení.",
+                                 "Restartujte VPN klient a zkuste připojení znovu.",
+                                 "Pokud ověření dál selhává, předejte incident síťovému týmu."
+                             ],
+        "tags":  [
+                     "vpn",
+                     "vzdaleny-pristup",
+                     "autentizace"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0035",
+        "language":  "cs",
+        "user_message":  "Dnes jsem se znovu připojil k síti a nejbližší tiskárna se mi teď ve frontě zobrazuje jako offline.",
+        "category":  "printer_issue",
+        "subcategory":  "printer_offline",
+        "priority":  "low",
+        "platform":  "windows_10",
+        "product":  "printer",
+        "environment":  "enterprise",
+        "expected_response":  "Zkontrolujte, že je vybraná správná tiskárna, vymažte zaseknuté úlohy a ověřte, že je zařízení online, než zkusíte tisk znovu.",
+        "resolution_steps":  [
+                                 "Potvrďte název tiskárny a zda na ni mohou tisknout i ostatní.",
+                                 "Vymažte zaseknuté úlohy z tiskové fronty.",
+                                 "Ověřte, že je tiskárna online a správně zvolená.",
+                                 "Pokud tiskárna zůstává offline, předejte incident desktop supportu."
+                             ],
+        "tags":  [
+                     "tiskarna",
+                     "fronta-tisku",
+                     "offline"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0042",
+        "language":  "cs",
+        "user_message":  "Notebook hlásí, že je k Wi-Fi připojený, ale nic neotevřu, dokud se neodpojím a znovu nepřipojím.",
+        "category":  "wifi_issue",
+        "subcategory":  "wifi_no_connection",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Znovu se připojte ke schválené Wi-Fi síti, případně odeberte uložený profil sítě a spojení znovu otestujte.",
+        "resolution_steps":  [
+                                 "Potvrďte, že zařízení vidí správné firemní SSID.",
+                                 "Vypněte a zapněte Wi-Fi a znovu se připojte ke schválené síti.",
+                                 "Pokud problém trvá, odeberte uložený profil sítě a připojte se znovu.",
+                                 "Pokud se zařízení stále nepřipojí, předejte incident s uvedením lokace uživatele."
+                             ],
+        "tags":  [
+                     "wifi",
+                     "bezdratove",
+                     "ssid"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0049",
+        "language":  "cs",
+        "user_message":  "Několik záložek na mém desktopu vrací chybu adresa nenalezena, ale kolegovi stejné weby fungují.",
+        "category":  "network_issue",
+        "subcategory":  "dns_resolution_issue",
+        "priority":  "medium",
+        "platform":  "windows_10",
+        "product":  "wifi_adapter",
+        "environment":  "enterprise",
+        "expected_response":  "Vypadá to na problém s DNS. Restartujte síťové připojení, otestujte jiný interní web a po připojení ke správné síti nebo VPN to zkuste znovu.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda selhávají jen názvy hostitelů, zatímco přístup přes IP funguje.",
+                                 "Restartujte síťový adaptér nebo zařízení znovu připojte k síti.",
+                                 "Otestujte jiný interní hostname nebo se při práci na dálku znovu připojte k VPN.",
+                                 "Pokud překlad DNS dál selhává, předejte incident síťovým operacím."
+                             ],
+        "tags":  [
+                     "dns",
+                     "sit",
+                     "konektivita"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0056",
+        "language":  "cs",
+        "user_message":  "Potřebuji dnes na školení schválenou desktopovou aplikaci, ale na mém počítači s Windows 11 se vůbec nespustí.",
+        "category":  "software_issue",
+        "subcategory":  "application_not_launching",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "office_365",
+        "environment":  "enterprise",
+        "expected_response":  "Restartujte zařízení, zkuste aplikaci znovu otevřít a poznamenejte si případnou chybovou hlášku, aby se dalo určit, zda jde o lokální problém nebo problém aplikace.",
+        "resolution_steps":  [
+                                 "Potvrďte název aplikace a případnou chybovou hlášku při spuštění.",
+                                 "Aplikaci úplně zavřete a restartujte zařízení.",
+                                 "Zkuste ji znovu spustit ze standardní zástupce nebo schválené instalační cesty.",
+                                 "Pokud se aplikace stále nespustí, předejte dál přesnou chybu."
+                             ],
+        "tags":  [
+                     "aplikace",
+                     "spusteni",
+                     "desktop-aplikace"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "medium"
+    },
+    {
+        "id":  "l1-0063",
+        "language":  "cs",
+        "user_message":  "Notebook nabíječku na chvíli rozpozná a pak se zase přepne zpět na baterii.",
+        "category":  "hardware_issue",
+        "subcategory":  "laptop_not_charging",
+        "priority":  "high",
+        "platform":  "windows_10",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Znovu pevně připojte nabíječku, pokud je to možné vyzkoušejte jinou zásuvku a ověřte, zda se rozsvítí indikátor nabíjení.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda problém souvisí s nabíječkou, zásuvkou nebo dockem.",
+                                 "Znovu připojte napájecí adaptér a pokud je to možné otestujte jinou zásuvku.",
+                                 "Zkontrolujte indikátory nabíjení nebo změnu stavu baterie.",
+                                 "Pokud se notebook stále nenabíjí, předejte ho na hardware kontrolu."
+                             ],
+        "tags":  [
+                     "napajeni",
+                     "baterie",
+                     "nabijecka"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0070",
+        "language":  "cs",
+        "user_message":  "Autentizační aplikace říká, že je připravená, ale při přihlášení mi nepřicházejí žádné ověřovací požadavky.",
+        "category":  "mfa_issue",
+        "subcategory":  "mfa_code_not_received",
+        "priority":  "medium",
+        "platform":  "android",
+        "product":  "authenticator_app",
+        "environment":  "enterprise",
+        "expected_response":  "Zkontrolujte síťové připojení telefonu, otevřete autentizační aplikaci přímo a ověřte, že je stále zaregistrovaný správný pracovní účet.",
+        "resolution_steps":  [
+                                 "Potvrďte, zda uživatel očekává push notifikaci nebo kód z aplikace.",
+                                 "Zkontrolujte, že má telefon internet a automaticky nastavený čas.",
+                                 "Otevřete autentizační aplikaci a potvrďte, že je pracovní účet přítomný.",
+                                 "Pokud schválení nebo kódy stále nepřicházejí, předejte požadavek na reset MFA."
+                             ],
+        "tags":  [
+                     "mfa",
+                     "autentikator",
+                     "overeni"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "hard"
+    },
+    {
+        "id":  "l1-0109",
+        "language":  "cs",
+        "user_message":  "Externí monitor je připojený přes dock k notebooku, ale obrazovka se vůbec nerozpozná.",
+        "category":  "hardware_issue",
+        "subcategory":  "external_monitor_not_detected",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "laptop",
+        "environment":  "enterprise",
+        "expected_response":  "Znovu připojte kabel monitoru, ověřte správný vstup na monitoru a spusťte znovu detekci displejů.",
+        "resolution_steps":  [
+                                 "Potvrďte, že je monitor zapnutý a správně připojený.",
+                                 "Znovu usaďte video kabel a ověřte zvolený vstup monitoru.",
+                                 "V nastavení zobrazení spusťte znovu detekci monitoru.",
+                                 "Pokud externí displej stále není rozpoznán, předejte incident dál."
+                             ],
+        "tags":  [
+                     "monitor",
+                     "dok",
+                     "obrazovka"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    },
+    {
+        "id":  "l1-0119",
+        "language":  "cs",
+        "user_message":  "V prohlížeči se objeví okno, že jsou data webu poškozená, a náš interní dashboard se nedokončí načtení.",
+        "category":  "browser_issue",
+        "subcategory":  "corrupted_site_cache",
+        "priority":  "medium",
+        "platform":  "windows_11",
+        "product":  "browser",
+        "environment":  "enterprise",
+        "expected_response":  "Vymažte data dotčeného webu, znovu otevřete prohlížeč a stránku otestujte znovu, abyste odstranili poškozenou lokální cache.",
+        "resolution_steps":  [
+                                 "Potvrďte, že problém ovlivňuje jen jeden dashboard nebo web.",
+                                 "Otestujte web v anonymním okně.",
+                                 "Vymažte uložená data daného webu a restartujte prohlížeč.",
+                                 "Pokud se stránka stále nenačte, zachyťte chybu a předejte incident dál."
+                             ],
+        "tags":  [
+                     "prohlizec",
+                     "cache",
+                     "dashboard"
+                 ],
+        "source":  "synthetic",
+        "difficulty":  "easy"
+    }
+]
