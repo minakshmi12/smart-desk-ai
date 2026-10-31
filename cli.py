@@ -1,9 +1,6 @@
-"""Local terminal chat entry point; implementation pending."""
+"""Local terminal chat entry point."""
 
-
-def main() -> None:
-    """Start the local chat when the agent workflow is implemented."""
-    raise NotImplementedError("The local chat workflow has not been implemented yet.")
+from smartdesk.agent.cli import main
 
 
 if __name__ == "__main__":

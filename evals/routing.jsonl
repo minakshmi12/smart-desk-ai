@@ -1,0 +1,10 @@
+{"id": "rt-001", "message": "How do I reset my password?", "expected_route": "kb_answer"}
+{"id": "rt-002", "message": "My laptop won't connect to the office wifi", "expected_route": "kb_answer"}
+{"id": "rt-003", "message": "How many vacation days do I get?", "expected_route": "kb_answer"}
+{"id": "rt-004", "message": "Please raise a ticket for my broken monitor", "expected_route": "start_ticket"}
+{"id": "rt-005", "message": "I need to speak to a human", "expected_route": "start_ticket"}
+{"id": "rt-006", "message": "What's the status of HELP-12?", "expected_route": "ask_email"}
+{"id": "rt-007", "message": "Any update on my ticket?", "expected_route": "ask_email"}
+{"id": "rt-008", "message": "Thanks, that's all!", "expected_route": "chitchat"}
+{"id": "rt-009", "message": "Hello", "expected_route": "chitchat"}
+{"id": "rt-010", "message": "What can you help me with?", "expected_route": "chitchat"}
