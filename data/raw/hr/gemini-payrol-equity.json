@@ -1,0 +1,67 @@
+{
+  "company": "My_Bio_Medical",
+  "document_title": "Internal Financial Administration & Compensation Policy",
+  "document_version": "2.1",
+  "author": "Payroll & Equity Operations Team",
+  "classification": "Internal Financial Policy",
+  "overview": {
+    "purpose": "Provide transparent guidelines on compensation payouts, tax declarations, salary breakdowns, and equity vesting schedules for My_Bio_Medical employees."
+  },
+  "pay_day_schedule": {
+    "frequency": "Semi-monthly (twice a month)",
+    "payout_dates": [
+      "15th of the current month (covers work performed from the 16th to the end of the previous month)",
+      "Last business day of the current month (covers work performed from the 1st to the 15th of the current month)"
+    ],
+    "weekend_rule": "If a pay date falls on a weekend or federal holiday, payroll is disbursed on the immediately preceding business day.",
+    "direct_deposit": "Mandatory. Funds are typically available by 9:00 AM local time on pay-day."
+  },
+  "tax_declaration_process": {
+    "portal": "https://hr-tax.mybiomed.internal",
+    "initial_filing": "New hires must submit federal (e.g., W-4 / equivalent local tax forms) and state tax withholding declarations within 7 calendar days of their start date.",
+    "annual_updates": "Employees can modify their withholding elections at any time through the HR portal, with changes taking effect on the next available payroll cycle.",
+    "compliance_note": "My_Bio_Medical HR does not provide personal tax advice; employees should consult a certified public accountant for individual situations."
+  },
+  "salary_structure": {
+    "components": [
+      {
+        "element": "Base Salary",
+        "description": "Guaranteed fixed annual cash compensation paid out evenly across all semi-monthly pay periods."
+      },
+      {
+        "element": "Performance Bonus",
+        "description": "Discretionary or milestone-based annual bonus evaluated during Q4 based on company key performance indicators (KPIs) and individual OKRs."
+      },
+      {
+        "element": "Biosecurity / Remote Stipend",
+        "description": "Monthly allowance allocated to cover high-speed internet and home-office ergonomic enhancements."
+      }
+    ]
+  },
+  "stock_option_vesting": {
+    "instrument": "Incentive Stock Options (ISOs) / Non-Qualified Stock Options (NSOs)",
+    "standard_schedule": {
+      "cliff_period": "12 months from the official vesting start date",
+      "cliff_vest": "25% of the total granted shares vest upon surviving the 1-year cliff",
+      "subsequent_vesting": "The remaining 75% vests in equal monthly installments over the following 36 months (1/48th per month)"
+    },
+    "exercise_window": "Typically 90 days post-termination of employment for vested options, subject to the terms outlined in the individual Stock Option Agreement."
+  },
+  "unanswerable_scenarios_and_escalation": [
+    {
+      "topic": "Personal Individual Tax Audits or Legal Garnishment Disputes",
+      "policy_status": "Out of scope for corporate payroll team",
+      "escalation_target": "External Legal Counsel / Dedicated Payroll Tax Specialist"
+    },
+    {
+      "topic": "Brokerage Account Liquidation Failures (External Third Parties)",
+      "policy_status": "Managed externally by equity platform provider (e.g., Carta/Shareworks)",
+      "escalation_target": "Equity Administrator Support Desk"
+    }
+  ],
+  "escalation_contacts": {
+    "payroll_helpdesk": "payroll@mybiomed.internal",
+    "equity_operations": "equity@mybiomed.internal",
+    "internal_finance_portal": "https://finance.mybiomed.internal"
+  }
+}

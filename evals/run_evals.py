@@ -106,7 +106,7 @@ def main(argv: list[str] | None = None) -> int:
     from smartdesk.agent.router import make_router_node
     from smartdesk.llm.client import LLMClient
     from smartdesk.rag.chain import RAGChain
-    from smartdesk.rag.retriever import Retriever
+    from smartdesk.rag.hybrid import build_retriever
     from smartdesk.rag.vector_store import get_collection
 
     if get_collection().count() == 0:
@@ -116,7 +116,7 @@ def main(argv: list[str] | None = None) -> int:
     all_cases = load_qa_cases(args.qa)
     cases = all_cases[: args.limit]
     llm = LLMClient()
-    retriever = TimedRetriever(Retriever(llm))
+    retriever = TimedRetriever(build_retriever(llm))
     chain = RAGChain(retriever=retriever, llm=llm)
 
     print(f"Running {len(cases)} QA cases (threshold={settings.confidence_threshold}) ...")
@@ -239,6 +239,8 @@ def main(argv: list[str] | None = None) -> int:
             "chunk_size": settings.chunk_size, "chunk_overlap": settings.chunk_overlap,
             "llm_model": settings.llm_model, "embedding_model": settings.embedding_model,
             "judge_model": args.judge_model, "langsmith_version": _version("langsmith"),
+            "retrieval_mode": settings.retrieval_mode, 
+            "reranker": settings.reranker,
         },
         "escalation": {**esc.__dict__, "accuracy": esc.accuracy,
                        "false_answer_rate": esc.false_answer_rate,

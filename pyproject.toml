@@ -34,11 +34,12 @@ sqlite = ["langgraph-checkpoint-sqlite>=2.0"]
 postgres = ["langgraph-checkpoint-postgres>=2.0", "psycopg[binary,pool]>=3.2"]
 evals = ["langsmith>=0.2,<0.5"]
 ui = ["streamlit>=1.40"]
+rerank = ["sentence-transformers>=3"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src", "tests"]
+pythonpath = [".", "src", "tests"]
 asyncio_default_fixture_loop_scope = "function"

@@ -49,8 +49,17 @@ class Settings(BaseSettings):
     chunk_size: int = 800        # characters per chunk: small = precise, large = more context
     chunk_overlap: int = 120     # shared text between neighbouring chunks, so answers
                                  # that straddle a boundary aren't cut in half
-    top_k: int = 5               # how many chunks the retriever returns per query
+    top_k: int = 3               # default maximum chunks returned per query
     confidence_threshold: float = 0.60  # "answer vs escalate" cutoff; tune with evals/
+    retrieval_mode: Literal["dense", "sparse", "hybrid"] = "hybrid"
+    candidate_pool: int = Field(default=20, ge=1)
+    rerank_candidates: int = Field(default=10, ge=1)
+    rrf_k: int = Field(default=60, ge=1)
+    reranker: Literal["none", "llm", "cross_encoder"] = "llm"
+    rerank_model: str = "gpt-4o-mini"
+    rerank_min_score: int = Field(default=1, ge=0, le=10)
+    cross_encoder_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    judge_model: str = "gpt-4o"
 
     # ---- Tickets ----
     # Literal restricts this to known values, so a typo like "jria" fails at startup.

@@ -1,0 +1,132 @@
+{
+  "company": "My_Bio_Medical",
+  "document_title": "Internal IT Administration Guide: Secure Remote VPN Setup, Onboarding & Policy",
+  "document_version": "2.5",
+  "author": "IT Operations, Security & People Operations Team",
+  "classification": "Internal Operational Policy",
+  "overview": {
+    "purpose": "Ensure full HIPAA compliance, bio-data security, smooth remote employee onboarding, and protection of intellectual property.",
+    "supported_clients": [
+      {
+        "client_name": "OpenVPN Connect / My_Bio_Medical Secure Client",
+        "version": "v3.2+",
+        "role": "Primary Client"
+      },
+      {
+        "client_name": "Cisco Secure Client (AnyConnect)",
+        "role": "Alternative Client (Enterprise)"
+      }
+    ]
+  },
+  "day_one_checklist": [
+    "Complete identity verification and tax documentation via the HR portal (Workday).",
+    "Set up corporate credentials and activate Duo Multi-Factor Authentication (MFA).",
+    "Log into the internal IT portal and install the My_Bio_Medical Secure Client VPN.",
+    "Schedule introductory sync with assigned onboarding buddy.",
+    "Review and digitally sign the corporate Information Security and HIPAA compliance agreements."
+  ],
+  "it_equipment_allocation": {
+    "standard_package": [
+      "MacBook Pro or ThinkPad Enterprise Laptop (pre-configured with endpoint protection)",
+      "External USB-C Docking Station & Dual Power Adapters",
+      "Wireless Keyboard and Mouse",
+      "HD Webcam and Noise-Cancelling Headset",
+      "Hardware Security Key / YubiKey (for high-privilege access)"
+    ],
+    "delivery_process": "Shipped via secure courier to the employee's registered home address 3 business days prior to start date."
+  },
+  "benefits_enrollment": {
+    "window": "First 30 calendar days from start date",
+    "offerings": [
+      "Comprehensive Medical, Dental, and Vision coverage",
+      "401(k) retirement plan with corporate match up to 5%",
+      "Health Savings Account (HSA) / Flexible Spending Account (FSA)",
+      "Wellness stipend and mental health support platforms"
+    ],
+    "portal": "https://benefits.mybiomed.internal"
+  },
+  "buddy_programme": {
+    "description": "Every new remote employee is paired with an experienced team member outside of their direct reporting line for their first 90 days.",
+    "goals": [
+      "Facilitate cultural integration and informal team introductions",
+      "Provide guidance on internal tooling, communication norms, and workflows",
+      "Offer a safe, confidential space for general questions"
+    ]
+  },
+  "probation_period": {
+    "duration": "90 calendar days from the official start date",
+    "milestones": [
+      "30-Day Check-in: Initial alignment, tool setup review, and early feedback",
+      "60-Day Review: Progress evaluation on initial small-scale deliverables",
+      "90-Day Final Review: Formal evaluation to confirm permanent status"
+    ]
+  },
+  "installation_guide": {
+    "windows": {
+      "os_versions": ["Windows 10", "Windows 11"],
+      "steps": [
+        "Navigate to the internal IT portal at https://portal.mybiomed.internal/downloads",
+        "Download the My_Bio_Medical Windows Installer (.msi).",
+        "Run the installer with local administrator privileges and follow the setup wizard.",
+        "Launch the application, enter the gateway address: vpn.mybiomed.internal.",
+        "Authenticate using your corporate credentials and push notification via Duo Multi-Factor Authentication (MFA)."
+      ]
+    },
+    "macos": {
+      "os_versions": ["macOS"],
+      "steps": [
+        "Open Self Service via your applications folder or download the macOS package from the internal portal.",
+        "Run the .pkg installer and authorize it in System Settings > Privacy & Security if prompted by macOS Gatekeeper.",
+        "Open the application from your Applications folder, input your profile configuration file (.ovpn) supplied by IT, and click Connect.",
+        "Complete your Duo MFA approval."
+      ]
+    },
+    "linux": {
+      "distributions": ["Ubuntu", "Fedora", "RHEL"],
+      "steps": [
+        "Open your terminal and install the OpenVPN repository package: sudo apt update && sudo apt install openvpn network-manager-openvpn-gnome -y",
+        "Import the corporate configuration profile via the terminal or network manager GUI: sudo openvpn --config client_config.ovpn",
+        "Enter your domain credentials and hardware token/MFA prompt when requested."
+      ]
+    }
+  },
+  "troubleshooting": [
+    {
+      "error_code_or_symptom": "Error 691 / Authentication Failed",
+      "probable_cause": "Incorrect password or expired Duo token.",
+      "resolution_steps": "Verify network credentials via internal IDP. Re-sync your Duo Mobile app."
+    },
+    {
+      "error_code_or_symptom": "TLS Handshake Failed",
+      "probable_cause": "Blocked UDP/TCP ports on home router or captive portal.",
+      "resolution_steps": "Switch connection protocol from UDP 1194 to TCP 443 in client settings."
+    },
+    {
+      "error_code_or_symptom": "DNS Resolution Failure",
+      "probable_cause": "Local DNS cache conflict with internal domain.",
+      "resolution_steps": "Flush local DNS (ipconfig /flushdns on Windows, sudo dscacheutil -flushcache on Mac)."
+    }
+  ],
+  "unanswerable_scenarios_and_escalation": [
+    {
+      "topic": "Hardware Peripherals (e.g., Monitor Flickering / Docking Stations)",
+      "policy_status": "Deliberately excluded from VPN guide",
+      "escalation_target": "Desktop Hardware Support"
+    },
+    {
+      "topic": "Facilities & Logistics (e.g., Office Parking Passes, Badge Access)",
+      "policy_status": "Deliberately excluded from VPN guide",
+      "escalation_target": "Corporate Workplace Facilities"
+    },
+    {
+      "topic": "Proprietary Laboratory Equipment Calibration",
+      "policy_status": "Deliberately excluded from VPN guide",
+      "escalation_target": "Laboratory Instrumentation Division"
+    }
+  ],
+  "escalation_contacts": {
+    "helpdesk_portal": "https://support.mybiomed.internal",
+    "emergency_hotline": "Ext. 4357 (HELP) or +1-800-555-BIO-TECH",
+    "secure_slack_channel": "#it-remote-support"
+  }
+}

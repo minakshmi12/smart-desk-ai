@@ -3,8 +3,8 @@
 {"id": "kb-003", "category": "answerable", "should_answer": true, "question": "What do I have to approve when connecting to the VPN on macOS?", "must_mention": ["network extension"]}
 {"id": "kb-004", "category": "answerable", "should_answer": true, "question": "Can contractors use the VPN straight away?", "must_mention": ["manager"]}
 {"id": "kb-005", "category": "answerable", "should_answer": true, "question": "vpn keeps failing with 809, what ports need to be open?", "must_mention": ["500", "4500"]}
-{"id": "nm-001", "category": "near_miss", "should_answer": false, "question": "How do I set up the VPN on Linux?"}
-{"id": "nm-002", "category": "near_miss", "should_answer": false, "question": "How do I reset my VPN password?"}
+{"id":"nm-001","category":"answerable","should_answer":true,"question":"How do I set up the VPN on Linux?"}
+{"id":"nm-002","category":"answerable","should_answer":true,"question":"How do I reset my VPN password?"}
 {"id": "nm-003", "category": "near_miss", "should_answer": false, "question": "What does VPN error 619 mean?"}
 {"id": "nm-004", "category": "near_miss", "should_answer": false, "question": "How long does it take for a manager to approve VPN access?"}
 {"id": "un-001", "category": "unanswerable", "should_answer": false, "question": "Can I expense a standing desk?"}

@@ -24,7 +24,7 @@ from pathlib import Path
 from smartdesk.config import get_settings
 from smartdesk.llm.client import LLMClient
 from smartdesk.rag.loaders import SourceDocument, load_directory
-from smartdesk.rag.vector_store import get_collection
+from smartdesk.rag.vector_store import get_collection, write_index_version
 
 logger = logging.getLogger(__name__)
 
@@ -228,7 +228,7 @@ def ingest(
             embeddings=vectors[i : i + _BATCH],
             metadatas=[c.metadata for c in batch],
         )
-
+    write_index_version()   # tells running servers to rebuild their BM25 index
     report = IngestReport(documents=len(docs), chunks=len(chunks))
     for c in chunks:
         dept = c.metadata["department"]

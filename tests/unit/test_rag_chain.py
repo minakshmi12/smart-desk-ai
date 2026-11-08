@@ -177,9 +177,9 @@ def test_retriever_maps_chroma_output_and_caps_n_results():
         def query(self, **kw):
             self.kw = kw
             return {
-                "documents": [["a", "b"]],
-                "metadatas": [[{"title": "A"}, {"title": "B"}]],
-                "distances": [[0.2, 0.5]],
+                "documents": [["a", "b"][:kw["n_results"]]],
+                "metadatas": [[{"title": "A"}, {"title": "B"}][:kw["n_results"]]],
+                "distances": [[0.2, 0.5][:kw["n_results"]]],
             }
 
     col = FakeCollection()
@@ -187,6 +187,8 @@ def test_retriever_maps_chroma_output_and_caps_n_results():
     assert [(h.text, h.distance) for h in hits] == [("a", 0.2), ("b", 0.5)]
     assert col.kw["n_results"] == 2          # min(top_k=3, count=2)
     assert col.kw["where"] == {"department": "it"}
+    assert len(Retriever(llm=FakeLLM(), collection=col).search("q", top_k=1)) == 1
+    assert col.kw["n_results"] == 1
 
 
 def test_retriever_returns_empty_for_empty_index():

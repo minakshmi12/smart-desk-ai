@@ -91,7 +91,7 @@ Settings are read from the environment or a `.env` file in the project root.
 | `VECTOR_STORE_DIR` | `data/vector_store` | Where Chroma persists the index |
 | `CHUNK_SIZE` | `800` | Characters per chunk |
 | `CHUNK_OVERLAP` | `120` | Characters shared between neighbouring chunks |
-| `TOP_K` | `5` | Chunks retrieved per question |
+| `TOP_K` | `3` | Default chunks retrieved per question; Chat also lets you choose 1, 3, 5, or 8 per message |
 | `CONFIDENCE_THRESHOLD` | `0.6` | Maximum cosine distance for a chunk to count as relevant (lower is closer). Tune with `evals`. |
 
 ### Tickets

@@ -61,4 +61,5 @@ class AgentState(TypedDict, total=False):
     escalation_reason: str | None
     ticket_draft: TicketDraft | None
     awaiting: Literal["ticket_confirmation", "email"] | None
+    retrieval: dict | None   # details of the last KB search (mode, scores, timings); see rag/chain.py
     

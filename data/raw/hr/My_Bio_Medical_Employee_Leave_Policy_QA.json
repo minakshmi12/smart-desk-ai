@@ -1,0 +1,77 @@
+[
+  {
+    "question": "How many casual leaves do I get each year?",
+    "answer": "Eligible employees receive 12 casual leave days per calendar year. Planned leave should normally be requested at least 2 working days in advance.",
+    "category": "Casual Leave"
+  },
+  {
+    "question": "Can I take casual leave without advance notice?",
+    "answer": "For planned casual leave, submit your request at least 2 working days in advance. If an unexpected emergency occurs, notify your manager as soon as reasonably possible and follow the company's reporting process.",
+    "category": "Casual Leave"
+  },
+  {
+    "question": "Can unused casual leave be carried forward to the next year?",
+    "answer": "Under the draft policy, unused casual leave does not ordinarily carry forward. Any rights required by applicable law will still be honored.",
+    "category": "Casual Leave"
+  },
+  {
+    "question": "How much sick leave do I receive?",
+    "answer": "The draft policy provides 8 sick leave days per year, equivalent to 64 hours for an 8-hour workday. The company will provide at least the amount required by applicable California and local law if that is greater.",
+    "category": "Sick Leave"
+  },
+  {
+    "question": "Can I carry forward unused sick leave and encash it?",
+    "answer": "Unused sick leave will carry forward as required by applicable law. It is not ordinarily encashable under the draft policy, except where the law requires otherwise.",
+    "category": "Sick Leave"
+  },
+  {
+    "question": "Do I need advance approval to take sick leave in an emergency?",
+    "answer": "Notify your manager as soon as reasonably possible and follow the reporting process. Advance approval will not be required where applicable law prohibits requiring it.",
+    "category": "Sick Leave"
+  },
+  {
+    "question": "How many earned leave days do I receive?",
+    "answer": "The draft policy provides 15 earned leave days per year, accrued progressively during the year.",
+    "category": "Earned Leave"
+  },
+  {
+    "question": "Can I carry forward unused earned leave?",
+    "answer": "Accrued earned leave (vacation) carries forward as required by California law. The draft proposes a 30-working-day accrual cap, which must be confirmed as lawful and clearly communicated before the policy is adopted.",
+    "category": "Earned Leave"
+  },
+  {
+    "question": "Will my unused earned leave be paid out when I resign?",
+    "answer": "Generally, accrued and unused vacation must be paid at separation under California law. HR should calculate the payout based on the employee's accrued balance and applicable law.",
+    "category": "Earned Leave"
+  },
+  {
+    "question": "How long is maternity leave?",
+    "answer": "The draft policy provides a company maternity leave benefit of 26 weeks. Eligibility, pay, and coordination with applicable pregnancy-disability and family-leave protections and benefits must be confirmed with HR; greater statutory rights will not be reduced.",
+    "category": "Maternity Leave"
+  },
+  {
+    "question": "Is maternity leave fully paid?",
+    "answer": "The draft policy does not yet confirm whether the 26 weeks are fully paid, partially paid, or unpaid. Please contact HR for the approved pay arrangement and information about applicable California benefits.",
+    "category": "Maternity Leave"
+  },
+  {
+    "question": "How much paternity leave can I take?",
+    "answer": "The draft policy provides 2 weeks of company paternity leave. Pay, eligibility, and coordination with applicable bonding-leave protections and benefits should be confirmed with HR.",
+    "category": "Paternity Leave"
+  },
+  {
+    "question": "How do I earn compensatory time off (Comp Off)?",
+    "answer": "Under the proposed draft rules, 4 qualifying extra hours may earn a half-day of Comp Off and 8 qualifying extra hours may earn one day, subject to approval and applicable law. Comp Off does not replace legally required overtime pay, especially for nonexempt employees.",
+    "category": "Compensatory Off"
+  },
+  {
+    "question": "When must I use Comp Off, and can I encash it?",
+    "answer": "The draft proposes that Comp Off be used within 60 calendar days. It is not ordinarily encashable, except where required by applicable law. HR should confirm the final rule and ensure it complies with wage-and-hour requirements.",
+    "category": "Compensatory Off"
+  },
+  {
+    "question": "What should I do if my leave request is rejected?",
+    "answer": "Ask your manager for the reason and contact HR if you need a review or clarification. Requests for legally protected leave must be handled in accordance with applicable law and cannot be denied in violation of those protections.",
+    "category": "Leave Administration"
+  }
+]

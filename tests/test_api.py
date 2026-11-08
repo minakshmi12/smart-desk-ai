@@ -18,6 +18,7 @@ from smartdesk.api.main import create_app
 from smartdesk.config import get_settings
 from smartdesk.rag.chain import RAGResult
 from smartdesk.rag.confidence import EscalationReason
+from smartdesk.rag.vector_store import get_collection
 from smartdesk.tickets.mock_provider import MockTicketProvider
 from tests.fakes import ScriptedLLM
 from contextlib import contextmanager
@@ -118,6 +119,53 @@ def test_existing_thread_id_is_reused_and_awaiting_is_returned():
     body = _client(agent).post("/chat", json={"message": "yes", "thread_id": "abc-123"}).json()
     assert body["thread_id"] == "abc-123" and body["awaiting"] == "ticket_confirmation"
     assert agent.calls[0][1]["configurable"]["thread_id"] == "abc-123"
+
+
+def test_top_k_is_passed_to_the_agent_for_this_message():
+    """The selected result count travels through graph config without changing the thread key."""
+    agent = FakeAgent()
+    body = _client(agent).post("/chat", json={"message": "vpn setup", "top_k": 8}).json()
+    configurable = agent.calls[0][1]["configurable"]
+    assert configurable == {"thread_id": body["thread_id"], "top_k": 8}
+
+
+def test_top_k_one_is_accepted():
+    """The minimum supported Top-K option reaches the agent config."""
+    agent = FakeAgent()
+    body = _client(agent).post("/chat", json={"message": "vpn setup", "top_k": 1}).json()
+    assert body["thread_id"] and agent.calls[0][1]["configurable"]["top_k"] == 1
+
+
+def test_top_k_rejects_values_outside_the_ui_choices():
+    """Top-K is bounded to the supported user-facing options."""
+    agent = FakeAgent()
+    response = _client(agent).post("/chat", json={"message": "vpn setup", "top_k": 10})
+    assert response.status_code == 422 and agent.calls == []
+
+
+def test_source_view_displays_indexed_document_page_safely():
+    """The source link shows indexed passage text for the requested source/page, escaped as HTML."""
+    collection = get_collection()
+    collection.upsert(
+        ids=["it/guide.pdf#2#0", "it/guide.pdf#3#0"],
+        documents=["Page two <script>alert('x')</script>", "Page three details"],
+        embeddings=[[1.0, 0.0], [1.0, 0.0]],
+        metadatas=[
+            {"source": "it/guide.pdf", "title": "VPN Guide", "page": 2, "chunk_index": 0},
+            {"source": "it/guide.pdf", "title": "VPN Guide", "page": 3, "chunk_index": 0},
+        ],
+    )
+
+    response = _client(FakeAgent()).get("/sources", params={"source": "it/guide.pdf", "page": 2})
+
+    assert response.status_code == 200 and "VPN Guide" in response.text
+    assert "Page two &lt;script&gt;" in response.text and "Page three details" not in response.text
+
+
+def test_source_view_returns_404_for_unknown_source():
+    """The source viewer serves only documents present in the indexed KB."""
+    response = _client(FakeAgent()).get("/sources", params={"source": "../../.env"})
+    assert response.status_code == 404
 
 
 @pytest.mark.parametrize("payload", [
