@@ -18,13 +18,13 @@ services:
     image: smartdesk:latest
     restart: unless-stopped
     env_file: .env
-    environment:                         # these override anything in .env
+    environment:
       CHECKPOINTER: postgres
       DATABASE_URL: postgresql://smartdesk:${POSTGRES_PASSWORD}@postgres:5432/smartdesk
       VECTOR_STORE_DIR: /app/data/store/vector_store
     volumes:
-      - store:/app/data/store            # Chroma index + its version stamp
-      - ./data/raw:/app/data/raw:ro      # your source documents
+      - store:/app/data/store
+      - ./data/raw:/app/data/raw:ro
     depends_on:
       postgres: {condition: service_healthy}
     healthcheck:
@@ -48,7 +48,7 @@ services:
   caddy:
     image: caddy:2
     restart: unless-stopped
-    ports: ["80:80", "443:443"]
+    ports: ["80:80"]
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
