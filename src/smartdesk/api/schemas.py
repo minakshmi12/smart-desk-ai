@@ -90,6 +90,7 @@ class HealthResponse(BaseModel):
 
     status: Literal["ok", "degraded"]
     ticket_provider: str
+    checkpointer: str
     kb_chunks: int | None
 class ModeInfo(BaseModel):
     """One search method, as shown in the UI."""
