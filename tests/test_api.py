@@ -64,6 +64,8 @@ def env(monkeypatch, tmp_path):
     """Dummy key and a temp vector store, so /health never touches real data."""
     monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
     monkeypatch.setenv("VECTOR_STORE_DIR", str(tmp_path / "store"))
+    monkeypatch.setenv("TICKET_PROVIDER", "mock")
+    monkeypatch.setenv("CHECKPOINTER", "memory")
     get_settings.cache_clear()
     yield
     get_settings.cache_clear()
@@ -203,9 +205,12 @@ def test_health_reports_degraded_for_an_empty_knowledge_base():
     With no ingested documents the service is up but "degraded", HTTP 200.
     WHY IT MATTERS: a load balancer shouldn't kill a server that re-ingestion would fix.
     """
+    
     res = _client(FakeAgent()).get("/health")
     assert res.status_code == 200
-    assert res.json() == {"status": "degraded", "ticket_provider": "mock", "kb_chunks": 0}
+    #assert res.json() == {"status": "degraded", "ticket_provider": "mock", "kb_chunks": 0}
+    assert res.json() == {"status": "degraded", "ticket_provider": "mock",
+                          "checkpointer": "memory", "kb_chunks": 0}
 
 
 # ---------------------------------------------------------------- locks

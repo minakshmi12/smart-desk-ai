@@ -1,0 +1,62 @@
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: smartdesk
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: smartdesk
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U smartdesk"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    image: smartdesk:latest
+    restart: unless-stopped
+    env_file: .env
+    environment:                         # these override anything in .env
+      CHECKPOINTER: postgres
+      DATABASE_URL: postgresql://smartdesk:${POSTGRES_PASSWORD}@postgres:5432/smartdesk
+      VECTOR_STORE_DIR: /app/data/store/vector_store
+    volumes:
+      - store:/app/data/store            # Chroma index + its version stamp
+      - ./data/raw:/app/data/raw:ro      # your source documents
+    depends_on:
+      postgres: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  ui:
+    build: .
+    image: smartdesk:latest
+    restart: unless-stopped
+    command: ["streamlit", "run", "ui/app.py", "--server.address", "0.0.0.0",
+              "--server.port", "8501", "--server.headless", "true"]
+    environment:
+      SMARTDESK_API_URL: http://api:8000
+    depends_on:
+      api: {condition: service_healthy}
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [ui]
+
+volumes:
+  pgdata:
+  store:
+  caddy_data:
+  caddy_config:
