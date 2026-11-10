@@ -1,0 +1,50 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:          # lets you start it manually from the Actions tab
+
+concurrency:                  # cancel an older run of the same branch when you push again
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    # A real Postgres, so tests/integration/test_postgres.py runs instead of skipping
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: smartdesk
+          POSTGRES_PASSWORD: smartdesk
+          POSTGRES_DB: smartdesk
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U smartdesk"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+
+    env:
+      OPENAI_API_KEY: sk-test-not-a-real-key     # tests use fakes; this only satisfies settings validation
+      TEST_DATABASE_URL: postgresql://smartdesk:smartdesk@localhost:5432/smartdesk
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install
+        run: pip install -e ".[dev,sqlite,postgres,evals]"
+
+      - name: Run tests
+        run: pytest -v --maxfail=10

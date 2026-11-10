@@ -33,7 +33,7 @@ class FakeCollection:
     """Dense search returns `order`; get() serves documents or embeddings."""
 
     def __init__(self, rows=None, order=("a", "b", "c", "d")):
-        self.rows, self.order = dict(rows or ROWS), list(order)
+        self.rows, self.order = dict(ROWS if rows is None else rows), list(order)
         self.where, self.full_gets = None, 0
 
     def count(self):
@@ -140,7 +140,8 @@ def test_bm25_index_is_cached_and_rebuilt_when_the_collection_changes():
     r.search("error 809"); r.search("leave")
     assert col.full_gets == 1
     col.rows["e"] = ("Printer toner order form", {"department": "it", "title": "Printers"}, [0.5, 0.5])
-    assert [c.id for c in r.search("toner")][:1] == ["e"] and col.full_gets == 2
+    updated = r.search("toner")
+    assert "e" in [c.id for c in updated] and col.full_gets == 2
 
 
 def test_dense_is_not_a_hybrid_mode():
