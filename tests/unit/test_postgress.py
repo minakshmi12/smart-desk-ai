@@ -20,7 +20,7 @@ from smartdesk.api.persistence import open_persistence  # noqa: E402
 from smartdesk.config import get_settings  # noqa: E402
 from smartdesk.tickets.mock_provider import MockTicketProvider  # noqa: E402
 from tests.fakes import ScriptedLLM  # noqa: E402
-from tests.integration.test_persistence import Chain, _turn  # noqa: E402
+from tests.unit.test_persistence import Chain, _turn  # noqa: E402
 
 DB = os.environ.get("TEST_DATABASE_URL")
 pytestmark = pytest.mark.skipif(not DB, reason="set TEST_DATABASE_URL to run Postgres tests")
